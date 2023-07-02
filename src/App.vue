@@ -16,6 +16,6 @@
   }
 </script>
 
-<style src="./assets/CSS/style.css">
+<style src="@/assets/CSS/style.css">
 </style>
 
