@@ -1,14 +1,25 @@
 <template>
     <div class="container">
-        <div class="row">
-            <h2>Contact</h2>
+        <div class="row d-flex justify-content-center mt-5">
+            <h2>Get in Touch!</h2>
+        </div>
+        <div class="row row d-flex justify-content-center mt-2">
+            <ContactForm/>
+        </div>
+        <div class="row d-flex justify-content-center mt-5">
+            <SocialLinks/>
         </div>
     </div>
 </template>
 
 <script>
+    import ContactForm from '@/components/ContactForm'
+    import SocialLinks from '@/components/SocialLinks'
     export default {
-    
+        components:{
+            ContactForm,
+            SocialLinks
+        }
     }
 </script>
 

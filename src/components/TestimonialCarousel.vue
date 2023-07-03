@@ -1,15 +1,48 @@
 <template>
-    <div>
+    <div id="testimonialCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
 
-    </div>
+            <div v-for="testimonial in testimonials" :key="testimonial.id" class="carousel-item" :class="{active: testimonials.indexOf(testimonial) === 0}" data-bs-interval="10000">
+                <img :src="testimonial.image" class="img-fluid" :alt="testimonial.name">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>{{testimonial.name}}</h5>
+                    <p>{{testimonial.testimonial}}</p>
+                </div>
+            </div>
+            
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        </div>
 </template>
 
 <script>
     export default {
-        
+        computed:{
+            testimonials(){
+                return this.$store.state.testimonials
+            }
+        },
+        mounted(){
+            this.$store.dispatch('fetchTestimonial')
+        }
     }
 </script>
 
 <style scoped>
-
+.carousel-item img{
+    max-width: 250px;
+}
 </style>

@@ -1,12 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Mono&display=swap');
 
+*,
+*::after,
+*::before{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #000; 
+    --secondary-color-1: #e1e1e1; 
+    --secondary-color-2: #f1f1f1;  
+    --tetiary-color-1: #333333;
+    --tertiary-color-2:#9D9C9C;
+    --text-color: #FFFFFF;
+    --accent-color-1: #5a1bd9; 
+    --accent-color-2: #7441DD; 
+    --accent-color-3: #9068E3; 
+    --button-color-1: #0d6efd;
+}
+
 #app {
     font-family: 'Roboto Mono', monospace;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #335476;
 }
-.navbar-toggler{
-    border-color: transparent!important;
+
+.navbar .navbar-toggler{
+    border-color: transparent;
 }
+.navbar-nav .nav-link{
+    color: var(--secondary-color-1);;
+}
+
+#app #footer-style{
+    height: 2rem!;
+    width: 100%;
+    color: var(--accent-color-1);
+}
+
