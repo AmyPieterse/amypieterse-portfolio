@@ -1,14 +1,15 @@
 <template>
     <div class="container">
         <div class="row">
-            <h2>Resume</h2>
+            <h2 class="text-center">Work/Education</h2>
+            <h3>Skills</h3>
         </div>
     </div>
 </template>
 
 <script>
     export default {
-    
+        
     }
 </script>
 

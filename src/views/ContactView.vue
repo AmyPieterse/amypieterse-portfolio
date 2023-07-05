@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div class="row d-flex justify-content-center mt-5">
-            <h2>Get in Touch!</h2>
+            <h2 class="text-center">Get in Touch!</h2>
         </div>
         <div class="row row d-flex justify-content-center mt-2">
             <ContactForm/>
