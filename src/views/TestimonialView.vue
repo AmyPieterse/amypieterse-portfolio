@@ -1,9 +1,6 @@
 <template>
     <div class="container">
         <div class="row">
-            <h2>Testimonials</h2>
-        </div>
-        <div class="row">
             <TestimonialCarousel/>
         </div>
     </div>

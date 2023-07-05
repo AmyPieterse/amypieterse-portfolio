@@ -1,9 +1,9 @@
 <template>
-  <Navbar class="container-fluid"/>
-  <main class="container-fluid">
+  <Navbar/>
+  <main>
     <router-view/>
   </main>
-  <FooterComp class="container-fluid"/>
+  <FooterComp/>
 </template>
 <script>
   import Navbar from '@/components/Navbar.vue'

@@ -1,14 +1,17 @@
 <template>
     <div class="container">
         <div class="row">
-            <h2>Projects</h2>
+        <Project/>
         </div>
     </div>
 </template>
 
 <script>
+   import Project from '@/components/Project.vue';
     export default {
-
+        components:{
+            Project
+        }
     }
 </script>
 
