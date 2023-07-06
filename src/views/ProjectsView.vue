@@ -1,6 +1,6 @@
 <template>
     <div class="container-fluid">
-        <div class="row">
+        <div class="row d-flex justify-content-center">
         <Project/>
         </div>
     </div>
