@@ -1,6 +1,6 @@
 <template>
     <div class="container-fluid">
-        <div class="row mb-5 mt-5">
+        <div class="row mb-5 mt-5 align-items">
             <div class="col-md-6 d-flex justify-content-center">
                 <img src="" alt="About Image" class="img-fluid">
             </div>
