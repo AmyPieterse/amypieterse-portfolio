@@ -27,7 +27,7 @@
 
 <style scoped>
     .card{
-
+        
     }
 
 </style>
