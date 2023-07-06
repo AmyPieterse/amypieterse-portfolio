@@ -2,13 +2,13 @@
     <div class="container-fluid">
         <div class="row mb-5 mt-5 align-items">
             <div class="col-md-6 d-flex justify-content-center">
-                <img src="" alt="About Image" class="img-fluid">
+                <img src="https://i.postimg.cc/8zBsSBvn/profile.png" alt="About Image" class="img-fluid customImage">
             </div>
-            <div class="col-md-6 d-flex flex-column gap-3">
+            <div class="col-md-6 d-flex flex-column gap-3 justify-content-center">
                 <div>
                     <h2>About Me</h2>
                 </div>
-                <div>
+                <div class="customSize">
                     <p>
                     Driven by a commitment to continuous learning and fueled by a passion for creative problem-solving, I aspire to craft captivating websites that transcend reality and push boundaries.
                     </p>
@@ -32,5 +32,11 @@
 </script>
 
 <style scoped>
-
+    .customImage{
+        width:20rem;
+    }
+    .customSize{
+        
+        width:35rem;
+    }
 </style>
