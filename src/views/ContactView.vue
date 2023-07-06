@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row d-flex justify-content-center mt-5">
             <h2 class="text-center">Get in Touch!</h2>
         </div>

@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <h2 class="text-center">Work/Education</h2>
             <h3>Skills</h3>
