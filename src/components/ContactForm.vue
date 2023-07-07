@@ -1,5 +1,5 @@
 <template>
-    <div class="row d-flex justify-content-center mt-4">
+    <div class="row d-flex justify-content-center mt-4 custom">
         <div class="col-md-6">
             <form>
                 <div class="mb-3">
@@ -31,5 +31,10 @@
 </script>
 
 <style scoped>
-
+    .custom{
+        width: 65rem
+    }
+    input, textarea{
+        border: 1px solid black;
+    }
 </style>

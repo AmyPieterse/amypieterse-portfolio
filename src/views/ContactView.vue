@@ -6,7 +6,7 @@
         <div class="row row d-flex justify-content-center mt-2">
             <ContactForm/>
         </div>
-        <div class="row d-flex justify-content-center mt-5">
+        <div class="row d-flex justify-content-center mt-4">
             <SocialLinks/>
         </div>
     </div>

@@ -46,6 +46,8 @@
 #buttons a{
   text-decoration: none;
   background-color: #000;
+  width: 12.5rem;
+  text-align: center;
   color: white;
   border: 2px solid #fff;
   border-radius: 2px;
