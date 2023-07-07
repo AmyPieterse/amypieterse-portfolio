@@ -58,8 +58,9 @@ export default {
 </script>
 
 <style scoped>
+
 h5{
-  margin:1rem;
+  margin-top: .4rem;
 }
 .carousel-container{
     width: 100%;
@@ -91,6 +92,7 @@ h5{
     flex-direction: column;
     height: 30rem ;
 }
+
 
 .image{
     width: 15rem;

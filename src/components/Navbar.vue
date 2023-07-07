@@ -1,10 +1,11 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light py-2">
-    <!-- <router-link to="/" class="navbar-brand">
-      <img src="" alt="Logo" class="img-fluid" />
-    </router-link> -->
+    
+    <router-link to="/" class="navbar-brand">
+      
+    </router-link>
 
-    <button
+    <button 
       class="navbar-toggler"
       type="button"
       data-bs-toggle="collapse"

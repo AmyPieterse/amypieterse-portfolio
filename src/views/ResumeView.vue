@@ -22,38 +22,38 @@
         <div class="mb-4 mt-5">
             <h3 class="text-center">Skills</h3>
         </div>
-        <div class="d-flex justify-content-center mb-3">
-            <div class="col d-flex flex-column justify-content-center align-items-center">
+        <div class="row d-flex justify-content-center mb-3">
+            <div class="col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
                 <img src="https://i.postimg.cc/hPWbYWfv/html.png" alt="" class="img-fluid custom-image">
                 <h5>HTML</h5>
                 <div>Advanced</div>
             </div>
-            <div class="col d-flex flex-column justify-content-center align-items-center">
+            <div class="col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
                 <img src="https://i.postimg.cc/nzNYZN2d/css.png" alt="" class="img-fluid custom-image">
                 <h5>CSS</h5>
                 <div>Advanced</div>
             </div>
-            <div class="col d-flex flex-column justify-content-center align-items-center">
+            <div class="col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
                 <img src="https://i.postimg.cc/pLPQ2fQt/javascript.png" alt="" class="img-fluid custom-image">
                 <h5>JavaScript</h5>
                 <div>Intermediate</div>
             </div>
-            <div class="col d-flex flex-column justify-content-center align-items-center">
+            <div class="col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
                 <img src="https://i.postimg.cc/zftF2ygY/bootstrap.png" alt="" class="img-fluid custom-image">
                 <h5>Bootstrap</h5>
                 <div>Intermediate</div>
             </div>
-            <div class="col d-flex flex-column justify-content-center align-items-center">
+            <div class="col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
                 <img src="https://i.postimg.cc/8cLq82MG/github.png" alt="" class="img-fluid custom-image">
                 <h5>Github</h5>
                 <div>Intermediate</div>
             </div>
-            <div class="col d-flex flex-column justify-content-center align-items-center">
+            <div class="col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
                 <img src="https://i.postimg.cc/MHR0Gtrz/Git.png" alt="" class="img-fluid custom-image">
                 <h5>Git</h5>
                 <div>Intermediate</div>
             </div>
-            <div class="col d-flex flex-column justify-content-center align-items-center">
+            <div class="col-md-6  d-flex flex-column justify-content-center align-items-center">
                 <img src="https://i.postimg.cc/YC86jv8L/vue.png" alt="" class="img-fluid custom-image">
                 <h5>Vue</h5>
                 <div>Beginner</div>
@@ -166,7 +166,38 @@
     
 }
 @media screen and (width<756px) {
-    
+    .timelineItem::after {
+    display: none;
+    }
+
+
+.timelineContent h3{
+    font-size: 16px;
+}
+.timelineCard {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    }
+
+.timelineItem{
+    margin-bottom: 20px;
 }
 
+.custom-image {
+    width: 80px;
+    }
+
+.timelineItem:nth-child(even){
+    float: none;
+}
+.timelineItem:nth-child(odd){
+    float: none;
+}
+.timelineItem:nth-child(odd)::after{
+    left:0;
+    transform: translate(50%, 50%);
+}
+
+}
 </style>

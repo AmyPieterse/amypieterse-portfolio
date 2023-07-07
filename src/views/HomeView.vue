@@ -7,8 +7,8 @@
           <h2 class="descriptionText"> I <span class="glitchText">DEVELOP</span> WEBSITES</h2>
         </div>
         <div id="buttons">
-          <a href="">Explore My Projects</a>
-          <a href="">Contact Me</a>
+          <a href="/projects">Explore My Projects</a>
+          <a href="/contact">Contact Me</a>
         </div>
     </div>
   </div>
@@ -47,6 +47,7 @@
   text-decoration: none;
   background-color: #000;
   width: 12.5rem;
+  font-size:14px;
   text-align: center;
   color: white;
   border: 2px solid #fff;
@@ -94,6 +95,41 @@
     0.025em 0.09em 0 rgba(255,0,0,0.75),
     0.09em 0 0 rgba(0,255,0,0.75),
     0.025em 0.09em 0 rgba(0,0,255,0.75);
+  }
+}
+
+@media (max-width: 768px) {
+  #textbox p {
+    font-size: 30px;
+  }
+
+  #textbox h1 {
+    font-size: 60px;
+  }
+
+  .descriptionText {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 576px){
+  #textbox p {
+    font-size: 20px;
+  }
+
+  #textbox h1{
+    font-size: 40px;
+  }
+
+  .descriptionText{
+    font-size: 20px;
+  }
+
+  #buttons a{
+    font-size: 12px;
+    padding: 4px 10px;
+    width: 9rem;
+    height: 2rem;
   }
 }
 

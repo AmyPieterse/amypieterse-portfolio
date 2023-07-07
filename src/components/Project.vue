@@ -6,8 +6,8 @@
                     <h5 class="card-title">{{project.title}}</h5>
                     <p class="card-text">{{project.technologies}}</p>
                     <div class="d-flex justify-content-between">
-                    <a href="projects.netlifyLink" class="btn btn-primary btn-sm">View Website</a>
-                    <a href="projects.githubLink" class="btn btn-secondary btn-sm">Github Link</a>
+                    <a :href="project.netlifyLink" target="_blank" class="btn btn-primary btn-sm">View Website</a>
+                    <a :href="project.githubLink" target="_blank" class="btn btn-secondary btn-sm">Github Link</a>
                     </div>
                 </div>
             </div>

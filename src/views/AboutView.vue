@@ -1,10 +1,10 @@
 <template>
     <div class="container-fluid">
         <div class="row mb-5 mt-5 align-items">
-            <div class="col-md-6 d-flex justify-content-center">
+            <div class="col-md-6 col-12 d-flex justify-content-center">
                 <img src="https://i.postimg.cc/8zBsSBvn/profile.png" alt="About Image" class="img-fluid customImage">
             </div>
-            <div class="col-md-6 d-flex flex-column gap-3 justify-content-center">
+            <div class="col-md-6 col-12 d-flex flex-column gap-3 justify-content-center">
                 <div class="customSize">
                     <p>
                     Driven by a commitment to continuous learning and fueled by a passion for creative problem-solving, I aspire to craft captivating websites that transcend reality and push boundaries.
@@ -18,7 +18,7 @@
                 </div>
 
                 <div id="downloadResume">
-                    <button>Download Resume</button>
+                    <a href="https://drive.google.com/uc?export=download&id=1cMUB9dz3hHzdm4LQea8gmmIo733-msVD" class="btn btn-primary btn-sm">Download Resume</a>
                 </div>
             </div>
         </div>
@@ -35,10 +35,8 @@
     .customImage{
         width:20rem;
     }
-    .customSize{
-        width:35rem;
-    }
-    #downloadResume button{
+    
+    #downloadResume a{
         text-decoration: none;
         background-color: #000;
         color: white;
@@ -46,4 +44,26 @@
         border-radius: 2px;
         padding: 10px 20px;
     }
+
+@media (max-width: 768px) {
+    
+    .customImage {
+        width: 100%;
+        max-width: 250px;
+        margin-bottom: 1.5rem;
+    }
+
+
+    #downloadResume {
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+
+    #downloadResume a {
+    font-size: 12px;
+    padding: 8px 16px;
+    }
+}
 </style>
