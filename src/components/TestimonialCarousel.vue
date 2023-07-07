@@ -6,66 +6,22 @@
       data-bs-ride="carousel"
     >
       <div class="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#testimonialCarousel"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#testimonialCarousel"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#testimonialCarousel"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#testimonialCarousel"
-          data-bs-slide-to="3"
-          aria-label="Slide 4"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#testimonialCarousel"
-          data-bs-slide-to="4"
-          aria-label="Slide 5"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#testimonialCarousel"
-          data-bs-slide-to="5"
-          aria-label="Slide 6"
-        ></button>
+        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
       </div>
 
       <div class="carousel-inner">
-        <div
-          v-for="testimonial in testimonials"
-          :key="testimonial.id"
-          class="carousel-item"
-          :class="{ active: testimonials.indexOf(testimonial) === 0 }"
-          data-bs-interval="10000"
-        >
-          <div
-            class="d-flex justify-content-center align-items-center text-center h-100 caro-inner"
-          >
+        <div v-for="testimonial in testimonials" :key="testimonial.id" class="carousel-item" :class="{ active: testimonials.indexOf(testimonial) === 0 }" data-bs-interval="10000">
+          <div class="d-flex justify-content-center align-items-center text-center h-100 caro-inner">
             <div class="testimonial h-100">
               <div class="person">
-                <div class="image">
-                <img
-                  :src="testimonial.image"
-                  class="img-fluid"
-                  :alt="testimonial.name"
-                />
-            </div>
+                <div class="image m-auto">
+                <img :src="testimonial.image" class="img-fluid" :alt="testimonial.name"/>
+                </div>
                 <h5>{{ testimonial.name }}</h5>
               </div>
               <div class="content w-50 m-auto">
@@ -76,21 +32,11 @@
         </div>
       </div>
 
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#testimonialCarousel"
-        data-bs-slide="prev"
-      >
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#testimonialCarousel"
-        data-bs-slide="next"
-      >
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
@@ -112,7 +58,9 @@ export default {
 </script>
 
 <style scoped>
-
+h5{
+  margin:1rem;
+}
 .carousel-container{
     width: 100%;
     height: 85.5vh;
@@ -126,7 +74,6 @@ export default {
 .carousel-inner {
   width: 100vw;
   height: 70vh;
- 
 }
 
 .testimonial{
@@ -147,7 +94,7 @@ export default {
 
 .image{
     width: 15rem;
-    aspect-ratio: 2/2.5;
+    aspect-ratio: 2/2.4;
     object-fit: cover;
     object-position: center;
 }

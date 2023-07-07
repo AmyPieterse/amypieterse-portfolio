@@ -1,13 +1,13 @@
 <template>
-        <div v-for="project in projects" :key="project.id" class="col-md-3 mb-3 d-flex align-items-center">
+        <div v-for="project in projects" :key="project.id" class="col-lg-3 col-md-6 col-sm-12 mb-md-2 d-flex justify-content-center align-items-center">
             <div class="card d-flex justify-content-center">
                 <img :src="project.image" class="card-img-top imageSize" alt="Project Image">
                 <div class="card-body">
                     <h5 class="card-title">{{project.title}}</h5>
-                    <p class="card-text">{{projects.description}}</p>
+                    <p class="card-text">{{project.technologies}}</p>
                     <div class="d-flex justify-content-between">
-                    <a href={{projects.netlifyLink}} class="btn btn-primary btn-sm">View Website</a>
-                    <a href="{{projects.githubLink}}" class="btn btn-secondary btn-sm">Github Link</a>
+                    <a href="projects.netlifyLink" class="btn btn-primary btn-sm">View Website</a>
+                    <a href="projects.githubLink" class="btn btn-secondary btn-sm">Github Link</a>
                     </div>
                 </div>
             </div>
@@ -28,13 +28,12 @@
 </script>
 
 <style scoped>
-
 .card {
-    width: 18rem;
-    border: 1px solid #rgb(221, 221, 221);
+    width: 18.5rem;
+    border: 2px solid rgb(221, 221, 221);
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
 }
 
 .card-img-top {
@@ -55,6 +54,5 @@
 .card-text {
     margin-bottom: 1rem;
 }
-
 
 </style>

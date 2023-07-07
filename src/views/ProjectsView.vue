@@ -16,5 +16,11 @@
 </script>
 
 <style scoped>
+
+.container-fluid{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
     
 </style>

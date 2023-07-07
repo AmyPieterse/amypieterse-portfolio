@@ -48,11 +48,11 @@ html, body {
     font-size: 18px;
 }
 nav .nav-link:hover{
-  color: #7441DD!important;
+  color: #42b983!important;
 }
 nav a.router-link-exact-active {
   text-decoration: underline;
-  color: #42b983!important;
+  color: var(--secondary-color-1)!important;
 }
 #footer-style{
     height: 3rem;
