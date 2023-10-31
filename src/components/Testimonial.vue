@@ -1,5 +1,7 @@
 <template>
-  <div class="carousel-container" >
+  <div class="container-fluid">
+      <div class="row">
+        <div class="carousel-container" >
     <div
       id="testimonialCarousel"
       class="carousel carousel-dark slide"
@@ -41,8 +43,11 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+  </div> 
+      </div>
   </div>
 </template>
+
 
 <script>
 export default {
@@ -76,7 +81,6 @@ h5{
   width: 100vw;
   height: 70vh;
 }
-
 .testimonial{
     display: flex;
     justify-content: center;
@@ -84,7 +88,6 @@ h5{
     flex-direction: column;
     height: 100%;
 }
-
 .caro-inner{
     display: flex;
     justify-content: center;
@@ -92,15 +95,12 @@ h5{
     flex-direction: column;
     height: 30rem ;
 }
-
-
 .image{
     width: 15rem;
     aspect-ratio: 2/2.4;
     object-fit: cover;
     object-position: center;
 }
-
 .image img {
   width: 100%;
   height: 100%;

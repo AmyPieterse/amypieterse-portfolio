@@ -1,5 +1,5 @@
 <template>
-<div class="container">   
+    <div class="container">   
     <div class="row">
         <div class="workHeading m-4">
             <h2 class="text-center">Work & Education</h2>
@@ -61,26 +61,23 @@
         </div>   
     </div>
 </div>
-
-    
 </template>
 
 <script>
     export default {
         computed: {
-        resume() {
-        return this.$store.state.resume;
+            resume() {
+            return this.$store.state.resume;
+            },
         },
-    },
-    mounted() {
-        this.$store.dispatch("fetchResume");
-    },
-    }
+        mounted() {
+            this.$store.dispatch("fetchResume");
+        },
+    } 
 </script>
 
 <style scoped>
-
-.custom-image{
+    .custom-image{
     width: 100px;
 }
 

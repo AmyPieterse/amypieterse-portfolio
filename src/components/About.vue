@@ -1,5 +1,8 @@
 <template>
     <div class="container-fluid">
+        <div class="m-3">
+            <h1 class="heading text-center text-uppercase">About Me</h1>
+        </div>
         <div class="row mb-5 mt-5 align-items">
             <div class="col-md-6 col-12 d-flex justify-content-center">
                 <img src="https://i.postimg.cc/8zBsSBvn/profile.png" alt="About Image" class="img-fluid customImage">
@@ -7,13 +10,13 @@
             <div class="col-md-6 col-12 d-flex flex-column gap-3 justify-content-center">
                 <div class="customSize">
                     <p>
-                    Driven by a commitment to continuous learning and fueled by a passion for creative problem-solving, I aspire to craft captivating websites that transcend reality and push boundaries.
+                        Driven by a commitment to continuous learning and fueled by a passion for creative problem-solving, I aspire to craft captivating websites that transcend reality and push boundaries.
                     </p>
                     <p>
-                    Drawing inspiration from the vast landscapes of science fiction and video games
+                        Drawing inspiration from the vast landscapes of science fiction and video games
                     </p>
                     <p>
-                    I am currently expanding my skill set through the immersive web development program at Life Choices Coding Academy.
+                        I am currently expanding my skill set through the immersive web development program at Life Choices Coding Academy.
                     </p>
                 </div>
 
@@ -32,6 +35,9 @@
 </script>
 
 <style scoped>
+    .customSize{
+        width: 500px;
+    }
     .customImage{
         width:20rem;
     }
@@ -52,7 +58,6 @@
         max-width: 250px;
         margin-bottom: 1.5rem;
     }
-
 
     #downloadResume {
         text-align: center;
