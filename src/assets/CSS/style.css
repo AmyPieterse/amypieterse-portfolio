@@ -21,6 +21,10 @@
   --accent-color-3: #a95ed4;
   --accent-color-4:#ffae00; 
   --button-color-1: #0d6efd;
+  --fs-xl:5rem;
+  --fs-600:1.5rem;
+  --fs-500:1.25rem;
+  --fs-400:1rem;
 }
 
 #app {

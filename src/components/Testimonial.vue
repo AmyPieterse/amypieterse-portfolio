@@ -4,18 +4,9 @@
         <div class="carousel-container" >
     <div
       id="testimonialCarousel"
-      class="carousel carousel-dark slide"
+      class="carousel slide"
       data-bs-ride="carousel"
     >
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
-        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
-      </div>
-
       <div class="carousel-inner">
         <div v-for="testimonial in testimonials" :key="testimonial.id" class="carousel-item" :class="{ active: testimonials.indexOf(testimonial) === 0 }" data-bs-interval="10000">
           <div class="d-flex justify-content-center align-items-center text-center h-100 caro-inner">
@@ -26,7 +17,7 @@
                 </div>
                 <h5>{{ testimonial.name }}</h5>
               </div>
-              <div class="content w-50 m-auto">
+              <div class="content w-50 m-4">
                 <p>{{ testimonial.testimonial }}</p>
               </div>
             </div>
@@ -78,15 +69,17 @@ h5{
     height: 70vh;
 }
 .carousel-inner {
-  width: 100vw;
   height: 70vh;
+}
+.carousel-dark .carousel-control-prev-icon, .carousel-dark .carousel-control-next-icon {
+  color: var(--text-color);
 }
 .testimonial{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 100%;
+    height: max-content;
 }
 .caro-inner{
     display: flex;
@@ -97,7 +90,6 @@ h5{
 }
 .image{
     width: 15rem;
-    aspect-ratio: 2/2.4;
     object-fit: cover;
     object-position: center;
 }

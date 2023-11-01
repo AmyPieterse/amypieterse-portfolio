@@ -11,12 +11,12 @@
                     <div class="websiteDetails">
                        <h3>{{project.title}}</h3>
                        <div class="descriptionContainer">
-                        <p id="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius quibusdam, consequuntur in est molestias dolorem tenetur quam fugiat quia voluptatum ad minus dolores architecto? Totam omnis dolor magnam similique quo. Left</p>
+                        <p id="description">{{project.description}}</p>
                        </div>
                        <p>{{project.technologies}}</p>
                        <div class="buttons">
-                            <a id="sectionButton" href="">See Code</a>
-                            <a id="sectionButton" href="">Visit Live Site</a>
+                            <a id="sectionButton" :href="project.githubLink">See Code</a>
+                            <a id="sectionButton" :href="project.Link">Visit Live Site</a>
                        </div>
                     </div>
            </div>
@@ -122,8 +122,55 @@
         margin-left: 1rem;
     }
 
-    @media (max-width: 1200px) {
-      
+    @media (max-width: 1000px) {
+        .websiteScreenshot{
+            width: 100%;
+            height: 100%;
+            box-shadow: -2px 2px 2px 2px rgb(255, 255, 255, 0.4)!important;
+        } 
+        .projectCard{
+            display: flex;
+            flex-direction: column;
+            max-width: 800px;
+            width: 100%;
+        }
+        .websiteDetails{
+            text-align: center !important;
+            width: 36rem;
+        }
+        .websiteDetails h3{
+            font-size: 22px;
+            margin: 24px 0px 18px
+        }
+        .websiteDetails p{
+            font-size: 16px;
+            margin: 6px 0px 12px
+        }
+        .projectCard div{
+           direction: ltr;
+        }
+        .projectCard:nth-child(odd) .descriptionContainer{
+            margin-left: 0px;
+            height: max-content;
+        }
+        .projectCard:nth-child(even) .descriptionContainer{
+            margin-right: 0px;
+            height: max-content;
+        }
+        #description{
+            font-size: 14px;
+        }
+        #sectionButton{
+            font-size:12px;
+            font-weight: 500;
+            padding: 8px 14px;
+            margin: 0;
+        }
+        .buttons{
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
     }   
     @media (max-width: 479px) {
         .websiteScreenshot{

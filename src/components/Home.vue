@@ -4,7 +4,7 @@
           <div id="textbox">
             <h1>Hi,</h1>
             <h1>I'm Amy Pieterse</h1>
-            <h2 class="descriptionText"> An <span class="">Aspiring</span> Fullstack Web Developer</h2>
+            <h2 class="descriptionText"> An <span class="">Aspiring</span> Full-stack Web Developer</h2>
           </div>
           <div id="contactButton">
             <a href="/contact">Download Resume</a>

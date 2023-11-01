@@ -7,7 +7,7 @@
           <Home/>
         </div>
     </header>
-    <main class="container-fluid">
+    <main>
         <section id="work">
           <Project/>
         </section>
@@ -15,7 +15,7 @@
           <About/>
         </section>
         <section id="testimonial">
-          
+          <Testimonial/>
         </section>
         <section id="contact">
           <Contact/>
