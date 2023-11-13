@@ -1,4 +1,5 @@
 <template>
+  <div class="app-container">
     <header>
         <div>
           <Navbar/>
@@ -8,11 +9,14 @@
         </div>
     </header>
     <main>
-        <section id="work">
-          <Project/>
-        </section>
         <section id="about">
           <About/>
+          <article>
+              <Skills/>
+          </article>
+        </section>
+        <section id="work">
+          <Project/>
         </section>
         <section id="testimonial">
           <Testimonial/>
@@ -24,6 +28,7 @@
     <footer>
         <FooterComp/>
     </footer>
+  </div>
 </template>
 <script>
   import Navbar from '@/components/Navbar.vue'
@@ -34,7 +39,7 @@
   import Project from '@/components/Project.vue';
   import Testimonial from '@/components/Testimonial.vue';
   import Contact from '@/components/Contact.vue'
-  import threeBackground from './components/threeBackground.vue';
+  import Skills from '@/components/Skills.vue';
     export default{
       components:{
         Navbar,
@@ -45,7 +50,7 @@
         Project,
         Testimonial,
         Contact,
-        threeBackground
+        Skills
 }
   }
 </script>

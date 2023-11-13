@@ -7,7 +7,7 @@
             <h2 class="descriptionText"> An <span class="">Aspiring</span> Full-stack Web Developer</h2>
           </div>
           <div id="contactButton">
-            <a href="/contact">Download Resume</a>
+            <a href="#work">View Projects</a>
           </div>
       </div>
       <div>
@@ -75,7 +75,7 @@
     animation-delay: 2s;
   } 
   
-  @keyframes glitch-animation {
+  /* @keyframes glitch-animation {
     0%,100%{
       text-shadow: 
           0.08em 0 0 rgba(255,0,0,0.75),
@@ -94,7 +94,7 @@
       0.09em 0 0 rgba(0,255,0,0.75),
       0.025em 0.09em 0 rgba(0,0,255,0.75);
     }
-  }
+  } */
   @media (max-width: 992px) {
   
     #textbox h1 {

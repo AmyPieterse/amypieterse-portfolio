@@ -5,7 +5,7 @@
         </div>
         <div class="row mb-5 mt-5 align-content-center justify-content-center" id="aboutContainer">
             <div class="col-md-6 col-12 d-flex justify-content-end mr-2" id="imageContainer">
-                <img src="https://i.postimg.cc/8zBsSBvn/profile.png" alt="About Image" class="img-fluid w-90 customImage">
+                <img src="https://i.postimg.cc/YSqhbqg7/C12-C2-Amy-Pieterse.png" alt="About Image" class="img-fluid w-90 customImage">
             </div>
             <div class="col-md-6 col-12 d-flex flex-column justify-content-center align-content-center" id="summary">
                 <div class="customSize">
@@ -19,9 +19,6 @@
                     <p>
                         Furthermore, I have a passion for playing the guitar, challenging opponents in chess matches, and exploring new experiences, including trying out different new foods.
                     </p>
-                    <p>
-                        I'm excited to connect with professionals who share my values and interests and to use my skills and enthusiasm to make a difference in the tech industry. 
-                    </p>
                 </div>
                 <div id="downloadResume" class="d-flex justify-content-center w-90">
                     <a href="https://drive.google.com/uc?export=download&id=1cMUB9dz3hHzdm4LQea8gmmIo733-msVD" class="btn btn-primary btn-sm">Download Resume</a>
@@ -33,7 +30,7 @@
                     <h3 class="heading text-center text-uppercase"></h3>
                 </div>
                 <div id="skillsContainer">
-
+                    
                 </div>
             </div>
         </div>
@@ -56,7 +53,7 @@
         padding-top: 3.5em;
     }
     .customImage{
-        width: 400px;
+        width: 375px;
         height : auto;
         align-self: center;
     }

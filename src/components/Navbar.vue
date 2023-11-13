@@ -18,14 +18,15 @@
 
     <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
       <ul class="navbar-nav ml-auto text-center">
-        <li class="nav-item active">
-          <a class="nav-link" href="#landing">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#work">Work</a>
-        </li>
+        
         <li class="nav-item">
           <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#work">Projects</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#testimonial">Testimonials</a>

@@ -38,7 +38,6 @@
 </script>
 
 <style scoped>
-   
   
     #projectContainer{
         display: flex;
@@ -52,8 +51,8 @@
     }
     .projectCard{
         display: grid;
-        /* transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s; */
         max-width: 1200px;
+        background-color: var(--color-1);
         width: 100%;
         align-items: center;
         padding: 3.5em;
@@ -92,15 +91,22 @@
     }
     .websiteScreenshot{
         max-width: 600px;
+        max-height: 300px;
         background-color: var(--accent-color-1);
         z-index: 1;
-        filter: grayscale(100%) contrast(1) brightness(90%);
+        /* filter: grayscale(100%) contrast(1) brightness(90%); */
+        position: relative;
+    }
+    .websiteDetails{
+        max-width: 100%;
     }
     .imageStyle{
-        width: 100%;
+        max-width: 100%;
         height: 100%;
+        max-height: 300px;
         object-fit: cover;
-        position: static;
+        object-position: center top;
+        overflow: hidden;
     }
     .descriptionContainer{
         z-index: 2;
@@ -136,6 +142,10 @@
         }
         .websiteDetails{
             text-align: center !important;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
             width: 36rem;
         }
         .websiteDetails h3{
@@ -172,9 +182,16 @@
             gap: 2rem;
         }
     }   
-    @media (max-width: 479px) {
+    @media (max-width: 768px) {
+        
+        .descriptionContainer{
+            max-width: 100%;      
+        }
+    }
+
+    @media (max-width: 576px) {
         .websiteScreenshot{
-            width: 100%;
+            max-width: 100%;
             height: 100%;
             box-shadow: -2px 2px 2px 2px rgb(255, 255, 255, 0.4)!important;
         } 
@@ -186,7 +203,9 @@
             padding: 1em;
         }
         .websiteDetails{
-            text-align: center !important;;
+            text-align: center !important;
+            padding: 0;
+            max-width: 100%;
         }
         .websiteDetails h3{
             font-size: 22px;
@@ -206,6 +225,9 @@
         .projectCard:nth-child(even) .descriptionContainer{
             margin-right: 0px;
             height: max-content;
+        }
+        .descriptionContainer{
+            max-width: 100%;
         }
         #description{
             font-size: 14px;

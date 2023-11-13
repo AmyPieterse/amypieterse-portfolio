@@ -21,6 +21,7 @@
   --accent-color-3: #a95ed4;
   --accent-color-4:#ffae00; 
   --button-color-1: #0d6efd;
+  --color-1:#2A2A2A;
   --fs-xl:5rem;
   --fs-600:1.5rem;
   --fs-500:1.25rem;
@@ -57,9 +58,11 @@ header{
   min-height: 100vh;
   background-color: var(--primary-color);
 }
+
 main{
   padding: 0!important;
 }
+
 section{
   font-family: 'Roboto Slab', serif;
   padding: 1rem;

@@ -1,5 +1,10 @@
 <template>
   <div class="container-fluid">
+    <div>
+      <h1 class="text-center">
+        Testimonials
+      </h1>
+    </div>
       <div class="row">
         <div class="carousel-container" >
     <div
@@ -7,7 +12,7 @@
       class="carousel slide"
       data-bs-ride="carousel"
     >
-      <div class="carousel-inner">
+      <div class="carousel-inner d-flex align-content-center">
         <div v-for="testimonial in testimonials" :key="testimonial.id" class="carousel-item" :class="{ active: testimonials.indexOf(testimonial) === 0 }" data-bs-interval="10000">
           <div class="d-flex justify-content-center align-items-center text-center h-100 caro-inner">
             <div class="testimonial h-100">
@@ -81,6 +86,7 @@ h5{
     flex-direction: column;
     height: max-content;
 }
+
 .caro-inner{
     display: flex;
     justify-content: center;
@@ -96,5 +102,19 @@ h5{
 .image img {
   width: 100%;
   height: 100%;
+}
+
+@media (max-width: 576px) {
+  .person h5{
+    font-size: 16px;
+  }
+  .content p{
+    font-size: 12px;
+  }
+  .image img {
+    width: 135px;
+    height : auto;
+  }
+
 }
 </style>
