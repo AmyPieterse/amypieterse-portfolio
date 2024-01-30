@@ -1,7 +1,7 @@
 <template>
     <div class="container">   
     <div class="row">
-        <div class="workHeading m-4">
+        <div class="heading">
             <h2 class="text-center">Work & Education</h2>
         </div>
         <div class="timeline">

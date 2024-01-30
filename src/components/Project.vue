@@ -1,8 +1,8 @@
 <template>
-   <div class="container">
-        <div class="m-3">
-            <h1 class="heading text-center text-uppercase">Recent Work</h1>
-        </div>
+   <div>
+        
+        <h1 class="heading">Recent Work</h1>
+        
         <div id="projectContainer">
            <div data-aos="zoom-in" class="projectCard mb-md-4" v-for="(project) in projects" :key="index">
                     <div class="websiteScreenshot">
@@ -44,10 +44,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
-    .heading{
-        font-weight: 600;
-        color: rgb(255, 255, 255);
     }
     .projectCard{
         display: grid;
@@ -94,7 +90,6 @@
         max-height: 300px;
         background-color: var(--accent-color-1);
         z-index: 1;
-        /* filter: grayscale(100%) contrast(1) brightness(90%); */
         position: relative;
     }
     .websiteDetails{

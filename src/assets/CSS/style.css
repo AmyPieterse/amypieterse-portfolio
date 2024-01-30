@@ -1,12 +1,20 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Roboto+Slab&family=Space+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
 
 *::after,
 *::before{
     margin:0;
     padding:0;
     box-sizing: border-box;
+}
+
+*{
+  /* border: 2px solid aqua; */
+}
+
+@property --gradient-angle{
+	syntax: "<angle>";
+	inherits: false;
+	initial-value: 0deg;
 }
 
 :root{
@@ -20,7 +28,8 @@
   --accent-color-2: #4f2d9f; 
   --accent-color-3: #a95ed4;
   --accent-color-4:#ffae00; 
-  --button-color-1: #0d6efd;
+  --accent-color-5: rgba(0, 0, 255, 0.4);
+  --button-color: #0d6efd;
   --color-1:#2A2A2A;
   --fs-xl:5rem;
   --fs-600:1.5rem;
@@ -29,47 +38,60 @@
 }
 
 #app {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
 }
-
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-::-webkit-scrollbar-track {
-  background: var(--secondary-color-2);
-}
-
-::-webkit-scrollbar-thumb {
-  background: var(--tertiary-color-2);
-  border-radius: 8px;
-}
-
 
 html, body {
   width:100%;
   height: 100%;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+	background-color: #F5F5F5;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+	background-color: #FFF;
+	background-image: -webkit-gradient(linear,
+									   40% 0%,
+									   75% 84%,
+									   from(#16d1e2),
+									   to( #2596be),
+									   color-stop(.6, #2596be))
+}
+
 header{
-  min-height: 100vh;
-  background-color: var(--primary-color);
+  min-height: 120vh;
+  background-color: var(--secondary-color-2);
 }
 
 main{
-  padding: 0!important;
+  padding: 0 10rem;
+  background-color: var(--secondary-color-2);
 }
 
 section{
-  font-family: 'Roboto Slab', serif;
   padding: 1rem;
   min-height: 100vh;
-  color: var(--secondary-color-2);
-  background-color: var(--primary-color);
+  color: var(--primary-color);
   overflow: auto;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.heading{
+  color: var(--primary-color);
 }
 
 #landing{

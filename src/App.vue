@@ -11,9 +11,9 @@
     <main>
         <section id="about">
           <About/>
-          <article>
-              <Skills/>
-          </article>
+        </section>
+        <section>
+          <Skills/>
         </section>
         <section id="work">
           <Project/>

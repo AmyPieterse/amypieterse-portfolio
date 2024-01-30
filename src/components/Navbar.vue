@@ -51,12 +51,12 @@ nav{
   padding: 1rem;
 }
 .navbar{
-  background-color: var(--primary-color);
-  box-shadow: 0px 0px 15px 1px rgba(255,255,255,0.2);
+  background-color: rgba(0, 0, 255, 0.03);
 }
 .navbar-nav .nav-link{
-  color: var(--text-color);
+  color: var(--primary-color);
   font-size: 18px;
+  font-weight: 800;
   margin:0 10px;
   position: relative
 }
@@ -100,7 +100,7 @@ text-decoration: underline;
 color: var(--secondary-color-1)!important;
 }
 
- #contactButton a{
+#contactButton a{
     text-decoration: none;
     background-color: var(--accent-color-1);
     font-size:16px;
@@ -110,7 +110,42 @@ color: var(--secondary-color-1)!important;
     border: 3px solid white;
     border-radius: 6px;
     padding: 14px 20px;
-  }
+    position: relative;
+}
+
+
+
+@keyframes rotation{
+  0% {--gradient-angle:0deg;}
+  100% {--gradient-angle:360deg;}
+}
+#contactButton a:hover{
+   border: none;
+}
+
+#contactButton a:hover::before,
+#contactButton a:hover::after{
+    content: "";
+    position: absolute;
+    inset: -.3rem;
+    background: conic-gradient(
+      from var(--gradient-angle),
+      var(--accent-color-1),
+      var(--secondary-color-1),
+      var( --button-color),
+      var(--secondary-color-1),
+      var(--accent-color-1)
+    );
+    border-radius: inherit;
+    animation: rotation 2s linear infinite;
+    z-index: -1;
+}
+
+#contactButton a::after{
+  backdrop-filter: blur(.5rem);
+}
+
+
 
 @media (min-width: 992px){
   .navbar-expand-lg .navbar-collapse {

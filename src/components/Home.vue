@@ -1,35 +1,33 @@
 <template>
     <div class="landingContainer">
-      <div id="heading">
-          <div id="textbox">
-            <h1>Hi,</h1>
-            <h1>I'm Amy Pieterse</h1>
-            <h2 class="descriptionText"> An <span class="">Aspiring</span> Full-stack Web Developer</h2>
-          </div>
-          <div id="contactButton">
-            <a href="#work">View Projects</a>
-          </div>
-      </div>
-      <div>
-
-      </div>
+        <div id="textbox">
+          <h1>Hi,</h1>
+          <h1>I'm Amy Pieterse</h1>
+          <h1 class="descriptionText"><span class="">Aspiring</span> Full-Stack Web Developer</h1>
+        </div>
+        <img src="https://i.ibb.co/x5pW0b6/professional-Image.png" alt="profile image">
     </div>
       
   </template>
   
   <script>
-    export default {
-    }
+   
   </script>
   
   <style scoped>
+
   .landingContainer{
     width: 100%;
     height: 100%;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
+    padding-inline: 10rem;
   }
+  .landingContainer img{
+    width: 360px;
+  }
+  
   
   #heading{
     display: flex;
@@ -37,7 +35,7 @@
     gap: 1rem;
     align-items: flex-start;
     width: 1200px;
-    color: white;
+    color: var(--primary-color);
   }
 
   #heading div{
@@ -59,42 +57,17 @@
   
   #textbox h1{
     font-size: 68px;
-    font-weight: 600;
+    font-weight: 900;
   }
   
   .descriptionText{
-    font-size:35px;
+    font-size:45px!important;
     font-weight: bold;
     color: var(--accent-color-1);
     font-style: italic;
   }
   
-  .glitchText{
-    opacity:1;
-    animation: glitch-animation 2s infinite linear alternate-reverse;
-    animation-delay: 2s;
-  } 
   
-  /* @keyframes glitch-animation {
-    0%,100%{
-      text-shadow: 
-          0.08em 0 0 rgba(255,0,0,0.75),
-          -0.08em -0.025em 0 rgba(0,255,0,0.75),
-          -0.025em 0.08em 0 rgba(0,0,255,0.75); 
-    }
-    15%{
-      text-shadow: 
-      -0.08em -0.025em 0 rgba(255,0,0,0.75),
-      0.025em 0.025em 0 rgba(0,255,0,0.75),
-      -0.08em -0.08em 0 rgba(0,0,255,0.75); 
-    }
-    50%{ 
-      text-shadow: 
-      0.025em 0.09em 0 rgba(255,0,0,0.75),
-      0.09em 0 0 rgba(0,255,0,0.75),
-      0.025em 0.09em 0 rgba(0,0,255,0.75);
-    }
-  } */
   @media (max-width: 992px) {
   
     #textbox h1 {
