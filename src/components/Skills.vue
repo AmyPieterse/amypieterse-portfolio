@@ -1,6 +1,6 @@
 <template>
     <div>
-      <h3 class="heading">My Skills</h3>
+      <h1 class="heading">My Skills</h1>
       <div id="container">
         <div class="row d-flex justify-content-center mb-3 skillsContainer">
             <div class="col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">

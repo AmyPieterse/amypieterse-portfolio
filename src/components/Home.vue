@@ -25,6 +25,8 @@
     padding-inline: 10rem;
   }
   .landingContainer img{
+    border: 1px solid black;
+    box-shadow: 10px 10px black;
     width: 360px;
   }
   

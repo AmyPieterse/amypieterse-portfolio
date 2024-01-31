@@ -1,7 +1,7 @@
 <template>
   <div class="container-fluid">
     <div>
-      <h1 class="text-center">
+      <h1 class="heading">
         Testimonials
       </h1>
     </div>

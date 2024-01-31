@@ -12,7 +12,7 @@
         <section id="about">
           <About/>
         </section>
-        <section>
+        <section id="skills">
           <Skills/>
         </section>
         <section id="work">
