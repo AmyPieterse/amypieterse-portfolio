@@ -63,10 +63,9 @@
   }
   
   .descriptionText{
-    font-size:45px!important;
+    font-size:40px!important;
     font-weight: bold;
     color: var(--accent-color-1);
-    font-style: italic;
   }
   
   

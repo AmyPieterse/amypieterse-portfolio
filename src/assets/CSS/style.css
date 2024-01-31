@@ -27,7 +27,7 @@
   --accent-color-1: #16d1e2;
   --accent-color-2: #4f2d9f; 
   --accent-color-3: #a95ed4;
-  --accent-color-4:#ffae00; 
+  --accent-color-4:#02C9DB; 
   --accent-color-5: rgba(0, 0, 255, 0.4);
   --button-color: #0d6efd;
   --color-1:#2A2A2A;
@@ -79,6 +79,7 @@ header{
 main{
   padding: 0 10rem;
   background-color: var(--secondary-color-2);
+
 }
 
 section{
@@ -88,6 +89,14 @@ section{
   overflow: auto;
   padding-top: 5rem;
   padding-bottom: 5rem;
+}
+
+#contact{
+  padding-bottom: 0;
+}
+
+#skills{
+  min-height:80vh;
 }
 
 .heading{
@@ -105,6 +114,11 @@ section{
 
 #textbox h1{
   font-size: 120px;
+}
+
+#contact{
+  display: grid;
+  grid-template-columns: 65% 35%;
 }
 
 #footer-style{

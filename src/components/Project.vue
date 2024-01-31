@@ -38,6 +38,9 @@
 </script>
 
 <style scoped>
+    .heading{
+        text-align: center;
+    }
   
     #projectContainer{
         display: flex;
@@ -48,7 +51,6 @@
     .projectCard{
         display: grid;
         max-width: 1200px;
-        background-color: var(--color-1);
         width: 100%;
         align-items: center;
         padding: 3.5em;
@@ -105,7 +107,8 @@
     }
     .descriptionContainer{
         z-index: 2;
-        background-color: var(--secondary-color-1);
+        background-color: var(--accent-color-4);
+        color: white;
         border-radius: 6px;
         padding: 1em;
     }

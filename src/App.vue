@@ -18,10 +18,10 @@
         <section id="work">
           <Project/>
         </section>
-        <section id="testimonial">
-          <Testimonial/>
-        </section>
         <section id="contact">
+          <article id="testimonial">
+          <Testimonial/>
+          </article>
           <Contact/>
         </section>
     </main>
@@ -56,6 +56,7 @@
 </script>
 
 <style src="@/assets/CSS/style.css">
+
 
 </style>
 

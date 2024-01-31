@@ -26,7 +26,7 @@
                 </div>
             </div>
             <div id="downloadResume">
-                <a href="https://drive.google.com/uc?export=download&id=1cMUB9dz3hHzdm4LQea8gmmIo733-msVD" class="btn btn-primary btn-sm">Download Resume</a>
+                <a href="https://drive.google.com/file/d/1yWb7Zln90IHLI-STHk4Jv-k5dGHdxDYW/view?usp=sharing" class="btn btn-primary btn-sm">Download Resume</a>
             </div>
         </div>
         
@@ -40,19 +40,17 @@
 </script>
 
 <style scoped>
-    /* *{
-        border: 2px solid red;
-    } */
-    
+
     .about-container{
         display: grid;
         grid-template-columns: 1fr 2fr;
-        grid-gap: 5em;
+        grid-gap: 2em;
     }
     .image-container{
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-left: 3.5em;
     }
     .heading{
         margin-bottom: 1em;

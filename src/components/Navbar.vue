@@ -119,9 +119,7 @@ color: var(--secondary-color-1)!important;
   0% {--gradient-angle:0deg;}
   100% {--gradient-angle:360deg;}
 }
-#contactButton a:hover{
-   border: none;
-}
+
 
 #contactButton a:hover::before,
 #contactButton a:hover::after{

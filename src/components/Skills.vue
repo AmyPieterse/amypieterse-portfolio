@@ -1,45 +1,50 @@
 <template>
     <div>
       <h1 class="heading">My Skills</h1>
-      <div id="container">
-        <div class="row d-flex justify-content-center mb-3 skillsContainer">
-            <div class="col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
-                <img src="https://i.postimg.cc/hPWbYWfv/html.png" alt="" class="img-fluid custom-image">
-                <h5>HTML</h5>
-                <div>Advanced</div>
-            </div>
-            <div class="col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
-                <img src="https://i.postimg.cc/nzNYZN2d/css.png" alt="" class="img-fluid custom-image">
-                <h5>CSS</h5>
-                <div>Advanced</div>
-            </div>
-            <div class="col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
-                <img src="https://i.postimg.cc/pLPQ2fQt/javascript.png" alt="" class="img-fluid custom-image">
-                <h5>JavaScript</h5>
-                <div>Intermediate</div>
-            </div>
-            <div class="col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
-                <img src="https://i.postimg.cc/zftF2ygY/bootstrap.png" alt="" class="img-fluid custom-image">
-                <h5>Bootstrap</h5>
-                <div>Intermediate</div>
-            </div>
-            <div class="col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
-                <img src="https://i.postimg.cc/8cLq82MG/github.png" alt="" class="img-fluid custom-image">
-                <h5>Github</h5>
-                <div>Intermediate</div>
-            </div>
-            <div class="col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-center">
-                <img src="https://i.postimg.cc/MHR0Gtrz/Git.png" alt="" class="img-fluid custom-image">
-                <h5>Git</h5>
-                <div>Intermediate</div>
-            </div>
-            <div class="col-md-6  d-flex flex-column justify-content-center align-items-center">
-                <img src="https://i.postimg.cc/YC86jv8L/vue.png" alt="" class="img-fluid custom-image">
-                <h5>Vue</h5>
-                <div>Beginner</div>
-            </div>
-        </div> 
-      </div>  
+      <ul class="cards">
+  <li>
+    <a href="" class="card">
+      <img src="../assets/images/pexels-picjumbocom-196645.jpg" class="card-image" alt="" />
+      <div class="card__overlay">
+        <div class="card__header">
+          <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
+          <div class="card__header-text">
+            <h3 class="card__title">Frontend</h3>            
+          </div>
+        </div>
+        <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+      </div>
+    </a>      
+  </li>
+  <li>
+    <a href="" class="card">
+      <img src="../assets/images/pexels-luis-gomes-546819.jpg" class="card-image" alt="" />
+      <div class="card__overlay">        
+        <div class="card__header">
+          <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                 
+          <div class="card__header-text">
+            <h3 class="card__title">Backend</h3>
+          </div>
+        </div>
+        <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+      </div>
+    </a>
+  </li>
+  <li>
+    <a href="" class="card">
+      <img src="../assets/images/github-pages.jpg" class="card-image" alt="" />
+      <div class="card__overlay">
+        <div class="card__header">
+          <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
+          <div class="card__header-text">
+            <h3 class="card__title">Other</h3>
+          </div>
+        </div>
+        <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+      </div>
+    </a>
+  </li>  
+</ul> 
     </div>
 </template>
 
@@ -50,136 +55,112 @@
 </script>
 
 <style scoped>
-.skillsContainer{
-  background-color: var(--accent-color-1);
-  width: max-content;
-  padding: 1rem;
+.heading{
+    text-align: center;
 }
-#container{
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  height: 20rem;
+  gap: 2rem;
+  margin: 4rem 5vw;
+  padding: 0;
+  list-style-type: none;
+}
+
+.card {
+  position: relative;
+  display: block;
+  height: 100%;  
+  background-color: black;
+  color: var(--primary-color);
+  border-radius: calc(40 * 1px); 
+  border: 3px solid white;
+  overflow: hidden;
+  text-decoration: none;
+}
+.card-image {      
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  
+}
+.card__overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;      
+  border-radius: calc(40 * 1px);    
+  background-color: var(--secondary-color-2);      
+  transform: translateY(100%);
+  transition: .2s ease-in-out;
+}
+
+.card:hover .card__overlay {
+  transform: translateY(0);
+}
+
+.card__header {
+  position: relative;
   display: flex;
-  justify-content: center;
   align-items: center;
+  gap: 2em;
+  padding: 2em;
+  border-radius: calc(40 * 1px) 0 0 0;    
+  background-color: var(--secondary-color-2);
+  transform: translateY(-100%);
+  transition: .2s ease-in-out;
 }
 
-.custom-image{
-    width: 100px;
+.card__arc {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  bottom: 100%;
+  right: 0;      
+  z-index: 1;
 }
 
-.timeline::before{
-    content:"";
-    position:absolute;
-    height: 100%;
-    width: 2px;
-    background-color: black;
-    left: 50%;
-}
-.timeline{
-    width:80%;
-    height:auto;
-    max-width: 850px;
-    margin:0 auto;
-    position:relative;
-}
-.timelineItem::after{
-    content:"";
-    position:absolute;
-    height: 20px;
-    width: 20px;
-    background-color: black;
-    border-radius: 50%;
-    top:0%;
-}
-.timelineItem:nth-child(even):after{
-    right:-50px;
-    transform: translate(50%, -50%);
-}
-.timeline ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-} 
-.timelineItem{
-    margin-bottom: 65px;
-}
-.timelineItem:nth-child(even){
-    float: left;
-    clear: right;
-    transform: translateX(-20px);
-}
-.timelineItem:nth-child(odd){
-    float: right;
-    clear: left;
-    transform: translateX(20px);
-}
-.timelineItem:nth-child(odd)::after{
-    left:-48px;
-    transform: translate(-50%, -50%);
-}
-.timelineCard {
-    background-color: #42b983;
-    border-radius: 10px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-    width: 24rem;
-    height: 10rem;
-    padding: 20px;
+.card__arc path {
+  fill: var(--secondary-color-2);
+  d: path("M 40 80 c 22 0 40 -22 40 -40 v 40 Z");
+}       
+
+.card:hover .card__header {
+  transform: translateY(0);
 }
 
-.timelineDate {
-    font-weight: bold;
-    font-size: 16px;
-    margin-bottom: 5px;
-    text-align: center;
+.card__thumb {
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;      
+  border-radius: 50%;      
 }
 
-.timelineContent {
-    text-align: center;
+.card__title {
+  font-size: 20px;
+  margin: 0 0 .3em;
+  font-weight: 500;
+  color: var(--primary-color);
 }
 
-.timelineContent h3{
-    font-size: 20px;
-    font-weight: bold;
+.card__tagline {
+  display: block;
+  margin: 1em 0;
+  font-family: "MockFlowFont";  
+  font-size: .8em; 
+  color: var(--accent-color-1);  
 }
 
-@media screen and (width<1200px) {
-    
-}
-@media screen and (width<1000px){
-    
-}
-@media screen and (width<756px) {
-    .timelineItem::after {
-    display: none;
-    }
-
-
-.timelineContent h3{
-    font-size: 16px;
-}
-.timelineCard {
-    width: 100%;
-    max-width: 400px;
-    padding: 10px;
-    }
-
-.timelineItem{
-    margin-bottom: 20px;
-}
-
-.custom-image {
-    width: 80px;
-    }
-
-.timelineItem:nth-child(even){
-    float: none;
-}
-.timelineItem:nth-child(odd){
-    float: none;
-}
-.timelineItem:nth-child(odd)::after{
-    left:0;
-    transform: translate(50%, 50%);
-}
-
-}
-
+.card-description {
+  padding: 0 2em 2em;
+  margin: 0; 
+  background-color: var(--secondary-color-2); 
+  display: -webkit-box;
+  color: var(--accent-color-1);
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}  
 </style>
