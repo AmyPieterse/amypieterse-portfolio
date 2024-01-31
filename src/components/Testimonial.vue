@@ -14,7 +14,7 @@
      </div>
      <div class="grid4">
       <h5>Cody Kader - Peer</h5>
-      <p>"testimonial": "Amy works well in both teamwork and individual settings. She has strong skills in HTML, CSS and Javascript and she's always willingly to help her peers.</p>    
+      <p>"Amy works well in both teamwork and individual settings. She has strong skills in HTML, CSS and Javascript and she's always willingly to help her peers.</p>    
      </div>
   </div>
 </template>

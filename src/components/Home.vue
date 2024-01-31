@@ -84,13 +84,16 @@
     #textbox h1 {
       font-size: 50px;
     }
-  
     .descriptionText {
-      font-size: 30px;
+      font-size: 20px!important;
     }
     #contactButton a{
     font-size:14px;
     padding: 12px 18px;
+  }
+  .landingContainer{
+    flex-direction: column;
+    padding-inline: 0;
   }
   }
   
