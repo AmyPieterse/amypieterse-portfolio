@@ -7,10 +7,6 @@
     box-sizing: border-box;
 }
 
-*{
-  /* border: 2px solid aqua; */
-}
-
 @property --gradient-angle{
 	syntax: "<angle>";
 	inherits: false;
@@ -79,7 +75,6 @@ header{
 main{
   padding: 0 10rem;
   background-color: var(--secondary-color-2);
-
 }
 
 section{
@@ -130,5 +125,20 @@ section{
 }
 #footer-style p{
   margin: 0!important;
+}
+
+@media (max-width: 768px) {
+  #landing{
+    height: 80vh;
+  }
+  main{
+    padding: 0 2rem;
+  }
+  #skills{
+   height: 150vh;
+  }
+  #contact{
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
 }
 

@@ -93,21 +93,32 @@
   }
   .landingContainer{
     flex-direction: column;
+    align-items: center;
+    justify-content: initial;
+    gap: 4em;
+    padding-top: 8em;
     padding-inline: 0;
   }
+  .landingContainer img{
+    width: 275px;
+  }
+
   }
   
   @media (max-width: 576px){
+    .landingContainer{
+      display: flex;
+    }
+    
     #textbox h1{
       font-size: 35px;
     }
     .descriptionText{
       font-size: 20px;
     }
-    #contactButton a{
-    font-size:14px;
-    padding: 10px 16px;
-  }
+    .landingContainer img{
+    width: 200px;
+    }
   }
   
   @media (max-width: 360px){

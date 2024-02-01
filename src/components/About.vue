@@ -9,7 +9,10 @@
             <h1 class="heading">About Me</h1>
             <p>
                 I am currently expanding my skill set through the web development program at Life Choices Coding Academy.
-                As I work towards becoming a full-stack web developer, I'm driven by my strong passion for learning and my commitment to doing great work. My journey in the tech world is marked by my dedication to exploring new solutions and always striving to do better.   
+                As I work towards becoming a full-stack web developer, I'm driven by my strong passion for learning and my commitment to doing great work. 
+            </p>
+            <p>
+                My journey in the tech world is marked by my dedication to exploring new solutions and always striving to do better.   
             </p>
             <p>
                 I really enjoy math, solving problems, and I'm a big fan of logical thinking and don't like sticking to the same old ways of doing things. I believe in the power of not giving up and taking on challenging tasks. 
@@ -26,7 +29,7 @@
                 </div>
             </div>
             <div id="downloadResume">
-                <a class="btn btn-primary btn-sm" download="../assets/files/Amy_Pieterse_Resume.pdf">Download Resume</a>
+                <a class="btn btn-primary btn-sm" href="../assets/files/Amy_Pieterse_Resume.pdf" download>Download Resume</a>
             </div>
         </div>
         
@@ -40,7 +43,6 @@
 </script>
 
 <style scoped>
- 
     .about-container{
         display: grid;
         grid-template-columns: 1fr 2fr;
@@ -51,6 +53,7 @@
         justify-content: center;
         align-items: center;
         margin-left: 5.6em;
+        max-width: 100%!important;
     }
     .heading{
         margin-bottom: 1em;
@@ -76,7 +79,8 @@
         width: 28px;
     }
     .summary p{
-        text-wrap: balance;
+        line-height: 1.5;
+        word-wrap: normal;
     }
     .customImage{
         width: 375px;
@@ -101,55 +105,63 @@
     }
 
 @media (max-width: 1024px) {
-    .customSize{
-        width: 90%;
-    }
     .customImage{
         width: 375px;
         height : auto;
     }
 }
 @media (max-width: 990px) {
-    #aboutContainer{
+    .about-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+    .image-container{
         display: flex;
-        flex-direction: column;
         justify-content: center;
-        align-items: center;
-        gap: 1.5rem;
+        margin: 0;
     }
-    
-    #imageContainer{
-        padding: 0;
-        justify-content: center !important;
-        align-items: center;
-    }
-    #summary{
-        width: 80%;
-        align-items: center;
-        justify-content: center;
-    }
-    .customSize{
+    .summary{
         text-align: center;
-        padding-top: 0;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
     }
     .customImage {
-        width: 300px;
+        width: 250px;
         height: auto;
+    }
+
+    .interests{
+        margin-bottom: 2em;
+    }
+
+    .interests h4{
+       text-align: center;
+       margin: .5em 0!important;
+    }
+
+    div .interest-icons{
+        padding:0;
+    }
+    .interest-icons img{
+        margin: 0 10px;
+    }
+
+    .interests h4 {
+    margin: 0; 
     }
 
 }
 
 @media (max-width: 768px) {
-    .customImage {
-        width: 270px;
-        height: auto;
-    }
-    #summary{
-        width: 95%;
-    }
-
+    
     #downloadResume {
         text-align: center;
+    }
+
+    #downloadResume{
+        margin-top: 1em;
+        justify-content: center;
     }
 }
 
@@ -162,9 +174,6 @@
     .customImage{
         width: 200px;
         height : auto;
-    }
-    .customSize p{
-        font-size: 14px;
     }
 
 }

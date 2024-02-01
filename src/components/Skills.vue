@@ -62,7 +62,7 @@
         <ul class="card-description">
           <li>Git</li>
           <li>Github</li>
-          <li>Seo</li>
+          <li>SEO</li>
           <li>Agile</li>
           <li>Figma</li>
           <li>Networking</li>
@@ -82,12 +82,13 @@
 </script>
 
 <style scoped>
+
 .heading{
     text-align: center;
 }
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   height: 20rem;
   gap: 2rem;
   margin: 4rem 5vw;
@@ -192,4 +193,15 @@
   -webkit-line-clamp: 3;
   overflow: hidden;
 }  
+
+@media (max-width: 990px) {
+  #skills{
+    height: 150vh;
+  }
+  .cards{
+    margin: 3em 0 0 0;
+    height: 45rem;
+  }
+}
+
 </style>

@@ -67,9 +67,6 @@ export default {
   padding: 1em;
   border-radius: 10px;
 }
-
-
-
 .grids div{
   display: flex;
  
@@ -108,5 +105,13 @@ export default {
 }
 .grid4{
   grid-column: 6/9;
+}
+
+@media (max-width: 990px) {
+  
+  .grid1,.grid2,.grid3,.grid4{
+    grid-column: 1/9;
+  }
+
 }
 </style>
