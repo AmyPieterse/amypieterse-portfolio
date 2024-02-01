@@ -108,7 +108,7 @@ color: var(--secondary-color-1)!important;
     text-align: center;
     color: white;
     border: 3px solid white;
-    border-radius: 6px;
+    border-radius: 10px;
     padding: 14px 20px;
     position: relative;
 }

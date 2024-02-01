@@ -1,20 +1,45 @@
 <template>
   <div class="wrapper">
-     <div class="grid1">
-      <h5>Kgodisho Lebopa - Peer</h5>
+     <div class="grids grid1">
+      <div>
+        <img src="https://i.ibb.co/23rV8JW/Kgodisho.jpg" alt="">
+        <div class="grid-heading">
+          <h5>Kgodisho Lebopa</h5>
+          <h6>Peer</h6>
+        </div>
+      </div>
+      
       <p>"I have been impressed by Amy's commitment to learning and growing as a coder. She has a natural talent for problem-solving and has already demonstrated proficiency in the work she does. I highly recommend Amy to any organization seeking a motivated developer."</p>
      </div>
-     <div class="grid2">
-      <h5>Kamvelihle Sikalana - Peer</h5>
+     <div class="grids grid2">
+      <div>
+        <img src="https://i.ibb.co/K5JwVyS/Kamva.jpg" alt="Kamva">
+        <div class="grid-heading">
+          <h5>Kamvelihle Sikalana</h5>
+          <h6>Peer</h6>
+        </div>
+      </div>
       <p>"Amy is proficient in HTML, CSS and JavaScript. She is reliable and a team player in group related projects, she has a hunger to learn more"</p>
      </div>
-     <div class="grid3">
-      <h5>Seth Kallis - Mentor</h5>
+     <div class="grids grid3">
+      <div>
+        <img src="https://i.ibb.co/cbzKpmp/Seth.jpg" alt="Seth">
+        <div class="grid-heading">
+          <h5>Seth Kallis</h5>
+          <h6>Mentor</h6>
+        </div>
+      </div>
       <p>"Amy is dedicated, hard working and a team player. She works well with her peers and performs well on her projects. She has a good understanding of web development and would be a valuable addition to any team that is lucky enough to have her."</p>  
      </div>
-     <div class="grid4">
-      <h5>Cody Kader - Peer</h5>
-      <p>"Amy works well in both teamwork and individual settings. She has strong skills in HTML, CSS and Javascript and she's always willingly to help her peers.</p>    
+     <div class="grids grid4">
+      <div>
+        <img src="https://i.ibb.co/hLLwZfD/Codi.jpg" alt="Codi">
+        <div class="grid-heading">
+          <h5>Cody Kader</h5>
+          <h6>Peer</h6>
+        </div>
+      </div>
+      <p>"Amy works well in both teamwork and individual settings. She has strong skills in HTML, CSS and Javascript and she's always willingly to help her peers."</p>    
      </div>
   </div>
 </template>
@@ -31,7 +56,7 @@ export default {
 .wrapper{
   padding: 1em;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(8, 1fr);
   grid-auto-rows: minmax(250px, auto);
   grid-gap: 10px;
 }
@@ -43,6 +68,29 @@ export default {
   border-radius: 10px;
 }
 
+
+
+.grids div{
+  display: flex;
+ 
+  padding: 0;
+}
+.grids h4{
+  font-size: 14;
+}
+.grid-heading{
+  display: flex;
+  flex-direction: column;
+  margin-left: 1em;
+}
+.grids img{
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover; 
+  object-position: top;
+}
+
 .wrapper p{
   font-size: 14px;
 }
@@ -52,13 +100,13 @@ export default {
 }
 
 .grid2{
-  grid-column: 5/7;
+  grid-column: 5/9;
 }
 
 .grid3{
-  grid-column: 1/4;
+  grid-column: 1/6;
 }
 .grid4{
-  grid-column: 4/7;
+  grid-column: 6/9;
 }
 </style>

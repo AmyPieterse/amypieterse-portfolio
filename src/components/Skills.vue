@@ -12,7 +12,15 @@
             <h3 class="card__title">Frontend</h3>            
           </div>
         </div>
-        <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+        <ul class="card-description">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Bootstrap</li>
+          <li>JavaScript</li>
+          <li>TypeScript</li>
+          <li>Vue.js</li>
+          <li>React.js</li>
+        </ul>
       </div>
     </a>      
   </li>
@@ -26,7 +34,18 @@
             <h3 class="card__title">Backend</h3>
           </div>
         </div>
-        <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+        <ul class="card-description">
+          <li>Node.js</li>
+          <li>Express.js</li>
+          <li>JWT</li>
+          <li>RESTful APIs</li>
+          <li>MySQL</li>
+          <li>Python</li>
+          <li>Django</li>
+          <li>Numpy</li>
+          <li>Pandas</li>
+          <li>MongoDB</li>
+        </ul>
       </div>
     </a>
   </li>
@@ -40,7 +59,15 @@
             <h3 class="card__title">Other</h3>
           </div>
         </div>
-        <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+        <ul class="card-description">
+          <li>Git</li>
+          <li>Github</li>
+          <li>Seo</li>
+          <li>Agile</li>
+          <li>Figma</li>
+          <li>Networking</li>
+          <li>Cybersecurity</li>
+        </ul>
       </div>
     </a>
   </li>  
@@ -106,7 +133,7 @@
   display: flex;
   align-items: center;
   gap: 2em;
-  padding: 2em;
+  padding: 1em;
   border-radius: calc(40 * 1px) 0 0 0;    
   background-color: var(--secondary-color-2);
   transform: translateY(-100%);
@@ -155,10 +182,12 @@
 
 .card-description {
   padding: 0 2em 2em;
+  font-size: 14px;
   margin: 0; 
   background-color: var(--secondary-color-2); 
   display: -webkit-box;
-  color: var(--accent-color-1);
+  color: var(--primary-color);
+  column-count: 2;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
   overflow: hidden;

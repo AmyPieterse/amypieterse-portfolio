@@ -26,7 +26,7 @@
                 </div>
             </div>
             <div id="downloadResume">
-                <a href="https://drive.google.com/file/d/1yWb7Zln90IHLI-STHk4Jv-k5dGHdxDYW/view?usp=sharing" class="btn btn-primary btn-sm">Download Resume</a>
+                <a class="btn btn-primary btn-sm" download="../assets/files/Amy_Pieterse_Resume.pdf">Download Resume</a>
             </div>
         </div>
         
@@ -40,17 +40,17 @@
 </script>
 
 <style scoped>
-
+ 
     .about-container{
         display: grid;
         grid-template-columns: 1fr 2fr;
-        grid-gap: 2em;
+        grid-gap: 3em;
     }
     .image-container{
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 3.5em;
+        margin-left: 5.6em;
     }
     .heading{
         margin-bottom: 1em;
@@ -59,7 +59,7 @@
         display: flex;
         flex-direction: column;
         align-content: center;
-        padding: 4em 6em;
+        padding: 4em;
        
     }
    
@@ -82,12 +82,13 @@
         width: 375px;
         height : auto;
         border: 1px solid black;
-        box-shadow: 10px 10px black;
+        box-shadow: -10px 10px black;
     }
 
     #downloadResume{
         width: 100%;
         margin-top: 2em;
+        display: flex;
     }
     
     #downloadResume a{

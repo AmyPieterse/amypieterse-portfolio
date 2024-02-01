@@ -48,7 +48,10 @@
 <style scoped>
     .contact-container{
         height: min-content;
-        padding: 2em;
+        padding: .8em 0 .8em 2.5em;
+    }
+    .contact-container h2{
+        margin-bottom: 1em;
     }
     .submit-container{
         display: flex;

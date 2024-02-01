@@ -52,7 +52,7 @@
     text-align: center;
     color: white;
     border: 3px solid white;
-    border-radius: 6px;
+    border-radius: 10px;
     padding: 14px 20px;
     margin-left: 1rem;
   }

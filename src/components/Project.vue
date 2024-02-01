@@ -1,6 +1,5 @@
 <template>
    <div>
-        
         <h1 class="heading">Recent Work</h1>
         
         <div id="projectContainer">
@@ -82,15 +81,16 @@
         text-align: left;
     }
     .projectCard:nth-child(odd) .websiteScreenshot{
-        box-shadow: -4px 2px 6px 1px rgb(255, 255, 255, 0.4);
+        box-shadow: -10px 10px;
     }
     .projectCard:nth-child(even) .websiteScreenshot{
-        box-shadow: 4px 2px 6px 1px rgb(255, 255, 255, 0.4);
+        box-shadow: 10px 10px;
     }
     .websiteScreenshot{
         max-width: 600px;
         max-height: 300px;
         background-color: var(--accent-color-1);
+        border: 1px solid black;
         z-index: 1;
         position: relative;
     }
