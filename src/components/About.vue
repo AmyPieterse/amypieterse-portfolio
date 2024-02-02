@@ -29,7 +29,7 @@
                 </div>
             </div>
             <div id="downloadResume">
-                <a class="btn btn-primary btn-sm" href="../assets/files/Amy_Pieterse_Resume.pdf" download>Download Resume</a>
+                <a class="btn btn-primary btn-sm" href="https://drive.google.com/uc?export=download&id=1yWb7Zln90IHLI-STHk4Jv-k5dGHdxDYW" target="_blank">Download Resume</a>
             </div>
         </div>
         
