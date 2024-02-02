@@ -17,6 +17,12 @@
             <p>
                 I really enjoy math, solving problems, and I'm a big fan of logical thinking and don't like sticking to the same old ways of doing things. I believe in the power of not giving up and taking on challenging tasks. 
             </p>
+            <div class="additional-info">
+                <p>Date of birth: 19/07/1999</p>
+                <p>Address: Ravensmead, Cape Town</p>
+                <p>Languages: English & Afrikaans</p>
+                <p>Email: amypieterse.15@gmail.com</p>
+            </div>
             <div class="interests">
                 <h4>My Interests</h4>
                 <div class="interest-icons">
@@ -29,7 +35,7 @@
                 </div>
             </div>
             <div id="downloadResume">
-                <a class="btn btn-primary btn-sm" href="https://drive.google.com/uc?export=download&id=1yWb7Zln90IHLI-STHk4Jv-k5dGHdxDYW" target="_blank">Download Resume</a>
+                <a class="" type="button" href="https://drive.google.com/uc?export=download&id=1yWb7Zln90IHLI-STHk4Jv-k5dGHdxDYW" target="_blank">Download CV</a>
             </div>
         </div>
         
