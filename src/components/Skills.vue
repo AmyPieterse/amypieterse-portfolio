@@ -1,6 +1,6 @@
 <template>
     <div>
-      <h1 class="heading">My Skills</h1>
+      <h1 class="heading" id="skill">My Skills</h1>
       <ul class="cards">
   <li>
     <a href="" class="card">
@@ -108,10 +108,11 @@
   text-decoration: none;
 }
 .card-image {      
-  width: 100%;
-  height: auto;
   object-fit: contain;
-  
+  object-position: center;
+  width:  350px;
+  height: 300px;
+  object-fit: cover
 }
 .card__overlay {
   position: absolute;

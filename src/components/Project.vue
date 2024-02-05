@@ -14,8 +14,8 @@
                        </div>
                        <p>{{project.technologies}}</p>
                        <div class="buttons">
-                            <a id="sectionButton" :href="project.githubLink">See Code</a>
-                            <a id="sectionButton" :href="project.Link">Visit Live Site</a>
+                            <a id="sectionButton" :href="project.githubLink" target="_blank">See Code</a>
+                            <a id="sectionButton" :href="project.Link" target="_blank">Visit Live Site</a>
                        </div>
                     </div>
            </div>

@@ -23,7 +23,7 @@
           <a class="nav-link" href="#about">About</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="#skills">Skills</a>
+          <a class="nav-link" href="#skill">Skills</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#work">Projects</a>

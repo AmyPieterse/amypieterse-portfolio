@@ -9,11 +9,14 @@
         </div>
     </header>
     <main>
-        <section id="about">
+        <section>
           <About/>
         </section>
         <section id="skills">
           <Skills/>
+          <article>
+            <Badges/>
+          </article>
         </section>
         <section id="work">
           <Project/>
@@ -40,6 +43,7 @@
   import Testimonial from '@/components/Testimonial.vue';
   import Contact from '@/components/Contact.vue'
   import Skills from '@/components/Skills.vue';
+  import Badges from '@/components/Badges.vue'
     export default{
       components:{
         Navbar,
@@ -50,7 +54,8 @@
         Project,
         Testimonial,
         Contact,
-        Skills
+        Skills,
+        Badges
 }
   }
 </script>

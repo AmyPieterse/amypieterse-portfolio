@@ -6,7 +6,7 @@
         </div>
         
         <div class="summary">
-            <h1 class="heading">About Me</h1>
+            <h1 class="heading" id="about">About Me</h1>
             <p>
                 I am currently expanding my skill set through the web development program at Life Choices Coding Academy.
                 As I work towards becoming a full-stack web developer, I'm driven by my strong passion for learning and my commitment to doing great work. 
@@ -21,13 +21,33 @@
                 <p>Date of birth: 19/07/1999</p>
                 <p>Address: Ravensmead, Cape Town</p>
                 <p>Languages: English & Afrikaans</p>
-                <p>Email: amypieterse.15@gmail.com</p>
+                <p>Contact: 067 000 4602</p>
             </div>
             <div class="interests">
                 <h4>My Interests</h4>
                 <div class="interest-icons">
-                    <img src="../assets/icons/electric-guitar.png" alt="guitar">
+                    <img src="../assets/icons/electric-guitar.png" alt="guitar" data-toggle="modal" data-target="#Modal">
+                    <div class="modal" tabindex="-1" role="dialog" aria-labelledby="Modal" id="Modal">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <p>Modal body text goes here.</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
                     <img src="../assets/icons/chess.png" alt="chess">
+                    <div class="modal" tabindex="-1" role="dialog">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <p>Modal body text goes here.</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
                     <img src="../assets/icons/hiking.png" alt="hiking">
                     <img src="../assets/icons/open-book.png" alt="reading">
                     <img src="../assets/icons/space.png" alt="space">
@@ -62,13 +82,13 @@
         max-width: 100%!important;
     }
     .heading{
-        margin-bottom: 1em;
+        margin-bottom: 1.2em;
     } 
     .summary{
         display: flex;
         flex-direction: column;
         align-content: center;
-        padding: 4em;
+        padding: 4em 2.8em;
        
     }
    
@@ -81,6 +101,25 @@
         justify-content: space-between;
         padding-right: 4em;
     }
+
+    .interest-icons img{
+        cursor: pointer;
+    }
+
+    .additional-info{
+        column-count: 2;
+        margin-top: 1em;
+        background-color: var(--accent-color-1);
+        color: var(--secondary-color-2);
+        padding: 1em 0.8em;
+        border-radius: 10px;
+    }
+    .additional-info p a{
+        text-decoration: none;
+        color: var(--secondary-color-2);
+        font-weight: 600;
+    }
+
     .interests img{
         width: 28px;
     }
@@ -99,6 +138,7 @@
         width: 100%;
         margin-top: 2em;
         display: flex;
+        padding-left: 1em;
     }
     
     #downloadResume a{
@@ -156,7 +196,9 @@
     .interests h4 {
     margin: 0; 
     }
-
+    .additional-info{
+        column-count: 1;
+    }
 }
 
 @media (max-width: 768px) {
