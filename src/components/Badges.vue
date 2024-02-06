@@ -1,5 +1,5 @@
 <template>
-    <div class="badges-container">
+    <div class="badges-container w-100">
         <h3>Badges/Certificates</h3>
         <div class="certificates">
             <figure class="ibm-figure">
@@ -30,6 +30,19 @@
   </script>
   
   <style scoped>
+   
+
+    .badges-container{
+        width: 100%;
+        padding: 3rem 0;
+        background-image: linear-gradient(
+            45deg,
+            #97f6fb,
+            #c2fafd,
+            #edffff
+        );
+    }
+    
     figure{
         display: flex;
         align-items: center;

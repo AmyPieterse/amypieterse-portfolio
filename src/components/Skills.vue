@@ -1,6 +1,6 @@
 <template>
-    <div>
-      <h1 class="heading" id="skill">My Skills</h1>
+    <div  class="skills-container" id="skill">
+      <h1 class="heading">My Skills</h1>
       <ul class="cards">
   <li>
     <a href="" class="card">
@@ -20,6 +20,7 @@
           <li>TypeScript</li>
           <li>Vue.js</li>
           <li>React.js</li>
+          <li>Redux</li>
         </ul>
       </div>
     </a>      
@@ -82,6 +83,11 @@
 </script>
 
 <style scoped>
+
+.skills-container{
+  padding: 5rem 10rem;
+  min-height: 100vh;
+}
 
 .heading{
     text-align: center;

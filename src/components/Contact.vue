@@ -76,6 +76,6 @@
         margin: 1em;
     }
      #socialIcons a{
-        color: #42b983;
+        color: var(--primary-color);
     }
 </style>

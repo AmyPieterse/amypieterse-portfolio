@@ -4,6 +4,9 @@
           <h1>Hi,</h1>
           <h1>I'm Amy Pieterse</h1>
           <h1 class="descriptionText"><span class="">Aspiring</span> Full-Stack Web Developer</h1>
+          <div id="downloadResume">
+                <a class="" type="button" href="https://drive.google.com/uc?export=download&id=1yWb7Zln90IHLI-STHk4Jv-k5dGHdxDYW" target="_blank">Download CV</a>
+            </div>
         </div>
         <img src="https://i.ibb.co/x5pW0b6/professional-Image.png" alt="profile image">
     </div>
@@ -15,6 +18,21 @@
   </script>
   
   <style scoped>
+  #downloadResume{
+        width: 100%;
+        margin-top: 2em;
+        display: flex;
+    }
+    
+    #downloadResume a{
+        text-decoration: none;
+        background-color: #16d1e2;
+        color: white;
+        border: 2px solid #fff;
+        border-radius: 6px;
+        padding: 10px 20px;
+    }
+
 
   .landingContainer{
     width: 100%;
@@ -25,8 +43,8 @@
     padding-inline: 10rem;
   }
   .landingContainer img{
-    border: 1px solid black;
-    box-shadow: 10px 10px black;
+    border: 1px solid #16d1e2;
+    box-shadow: 10px 10px #16d1e2;
     width: 360px;
   }
   

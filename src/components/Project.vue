@@ -1,5 +1,5 @@
 <template>
-   <div>
+   <div class="project-section-wrapper">
         <h1 class="heading">Recent Work</h1>
         
         <div id="projectContainer">
@@ -54,6 +54,9 @@
         align-items: center;
         padding: 3.5em;
         margin: 1em;
+    }
+    .project-section-wrapper{
+        padding-top: 5rem;
     }
     .projectCard:nth-child(odd){
         grid-template-columns: 60% 40%;

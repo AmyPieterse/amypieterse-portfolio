@@ -62,9 +62,9 @@ html, body {
 	background-image: -webkit-gradient(linear,
 									   40% 0%,
 									   75% 84%,
-									   from(#16d1e2),
-									   to( #2596be),
-									   color-stop(.6, #2596be))
+									   from(#1293ab),
+									   to( #16d1e2),
+									   color-stop(.6, #16d1e2 ))
 }
 
 header{
@@ -73,7 +73,6 @@ header{
 }
 
 main{
-  padding: 0 10rem;
   background-color: var(--secondary-color-2);
 }
 
@@ -82,16 +81,16 @@ section{
   min-height: 100vh;
   color: var(--primary-color);
   overflow: auto;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
 }
 
 #contact{
   padding-bottom: 0;
+  padding: 5rem 10rem;
 }
 
 #skills{
   min-height:100vh;
+  padding: 0;
 }
 
 .heading{
@@ -114,12 +113,13 @@ section{
 #contact{
   display: grid;
   grid-template-columns: 65% 35%;
+  background-color: rgba(0, 0, 255, 0.03);;
 }
 
 #footer-style{
   height: 3rem;
   width: 100%;
-  background-color: var(--primary-color);
+  background-color: #16d1e2;
   font-size: 16px;
   color: #FFFFFF;
 }

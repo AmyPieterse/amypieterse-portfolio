@@ -28,6 +28,9 @@
         <li class="nav-item">
           <a class="nav-link" href="#work">Projects</a>
         </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="#work">Experience</a>
+        </li> -->
         <li class="nav-item">
           <a class="nav-link" href="#testimonial">Testimonials</a>
         </li>
@@ -51,10 +54,10 @@ nav{
   padding: 1rem;
 }
 .navbar{
-  background-color: rgba(0, 0, 255, 0.03);
+  background-color:  #16d1e2;
 }
 .navbar-nav .nav-link{
-  color: var(--primary-color);
+  color: var(--text-color);
   font-size: 18px;
   font-weight: 800;
   margin:0 10px;
@@ -68,7 +71,7 @@ nav{
   position: absolute;
   height: 3px;
   width:0;
-  background-color: var(--accent-color-1);
+  background-color: var(--text-color);
   transition: 0.5s;
 }
 
@@ -82,7 +85,7 @@ nav{
 }
 
 nav .nav-link:hover{
-  color: var(--accent-color-1);
+  color: var(--text-color);
 }
 nav .nav-link:hover:before,
 nav .nav-link:hover:after
