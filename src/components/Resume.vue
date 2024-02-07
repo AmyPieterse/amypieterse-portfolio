@@ -41,5 +41,21 @@
 </script>
 
 <style scoped>
+.timeline{
+    border: 2px solid aqua;
+}
+.timeline ul li{
+    margin: 5em auto;
+    border: 2px solid black;
+    width: 30rem;
+    min-height: 10rem;
+    text-align: center;
+    padding-top: auto;
+    padding-bottom: auto;
+    color: black;
+}
+.timelineContent{
+    margin-top: 1.5em;
+}
 
 </style>

@@ -18,6 +18,9 @@
             <Badges/>
           </article>
         </section>
+        <section id="resume">
+          <Resume/>
+        </section>
         <section id="work">
           <Project/>
         </section>
