@@ -118,8 +118,8 @@
     .customImage{
         width: 375px;
         height : auto;
-        border: 1px solid black;
-        box-shadow: -10px 10px black;
+        border: 1px solid var(--accent-color-4);
+        box-shadow: -10px 10px var(--accent-color-4);
     }
 
     

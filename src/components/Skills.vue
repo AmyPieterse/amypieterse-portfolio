@@ -109,7 +109,7 @@
   background-color: black;
   color: var(--primary-color);
   border-radius: calc(40 * 1px); 
-  border: 3px solid white;
+  border: 1px solid var(--secondary-color-2);
   overflow: hidden;
   text-decoration: none;
 }

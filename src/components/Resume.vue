@@ -35,31 +35,40 @@
 
 <style scoped>
 
-*{
+/* *{
     border: 2px solid aqua;
+} */
+.container{
+  min-height: 100vh;
 }
-
+.heading{
+  padding: 3rem 0 5rem 0;
+}
+.timeline-container{
+  height: 150vh;
+  width: 100%;
+}
 .timeline {
   margin: 4em auto;
   position: relative;
+  border: 2px solid green;
+  height: 100%;
   width: 80%;
   max-width: 900px;
   margin: 0 auto;
-
-  &:before {
-    background-color: black;
-    content: '';
-    margin-left: -1px;
-    position: absolute;
-    top: 0;
-    left: 2em;
-    width: 2px;
-    height: 100%;
-  }
+}
+.timeline::before{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 2px;
 }
 
 .timeline ul{
     list-style: none;
+    height: 100%;
+    width: 100%;
+    align-items: center;
 }
 
 

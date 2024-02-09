@@ -115,6 +115,9 @@ section{
   grid-template-columns: 65% 35%;
   background-color: rgba(0, 0, 255, 0.03);;
 }
+#resume{
+  min-height: 100vh;
+}
 
 #footer-style{
   height: 3rem;
