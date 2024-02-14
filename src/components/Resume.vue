@@ -51,7 +51,6 @@
 .timeline {
   margin: 4em auto;
   position: relative;
-  border: 2px solid green;
   height: 100%;
   width: 80%;
   max-width: 900px;
