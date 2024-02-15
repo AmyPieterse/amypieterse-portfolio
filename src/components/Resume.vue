@@ -41,11 +41,27 @@
     min-height: 100vh;
     width: 100%;
 }
+<<<<<<< HEAD
 .timeline{
     width: 80%;
     max-width: 800px;
     margin: 0 auto;
     position: relative;
+=======
+.timeline {
+  margin: 4em auto;
+  position: relative;
+  height: 100%;
+  width: 80%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.timeline::before{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 2px;
+>>>>>>> ea11ce39e84624d6e5a0c15bf5bc4d7cd664269c
 }
 
 .timeline ul{
