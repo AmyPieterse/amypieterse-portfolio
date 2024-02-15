@@ -37,8 +37,11 @@
 </script>
 
 <style scoped>
+    
     .heading{
         text-align: center;
+        padding: 1em 0;
+        font-size: 38px;
     }
   
     #projectContainer{
@@ -56,7 +59,13 @@
         margin: 1em;
     }
     .project-section-wrapper{
-        padding-top: 5rem;
+        width: 100;
+        background-image: linear-gradient(
+            45deg,
+            #97f6fb,
+            #c2fafd,
+            #edffff
+        );
     }
     .projectCard:nth-child(odd){
         grid-template-columns: 60% 40%;

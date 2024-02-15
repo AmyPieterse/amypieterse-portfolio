@@ -77,7 +77,7 @@ main{
 }
 
 section{
-  padding: 1rem;
+
   min-height: 100vh;
   color: var(--primary-color);
   overflow: auto;

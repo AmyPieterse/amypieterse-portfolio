@@ -23,13 +23,13 @@
      </div>
      <div class="grids grid3">
       <div>
-        <img src="https://i.ibb.co/cbzKpmp/Seth.jpg" alt="Seth">
+        <img src="https://i.ibb.co/FBf6P79/54-nashville-james-pp239qc98r7xx39cycmv6fuoze5d1prza9yjize41y-1.webp" alt="Nash">
         <div class="grid-heading">
-          <h5>Seth Kallis</h5>
-          <h6>Mentor</h6>
+          <h5>Nashville James</h5>
+          <h6>Team Lead</h6>
         </div>
       </div>
-      <p>"Amy is dedicated, hard working and a team player. She works well with her peers and performs well on her projects. She has a good understanding of web development and would be a valuable addition to any team that is lucky enough to have her."</p>  
+      <p>"Amy is incredibly hardworking, always striving to deepen her understanding of web development. Her dedication and eagerness to learn make her an undeniable asset to any company she joins."</p>  
      </div>
      <div class="grids grid4">
       <div>
@@ -62,7 +62,7 @@ export default {
 }
 
 .wrapper div{
-  background-color: var(--tertiary-color-1);
+  background-color: #1293ab;
   color: var(--text-color);
   padding: 1em;
   border-radius: 10px;

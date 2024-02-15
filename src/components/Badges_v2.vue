@@ -1,6 +1,6 @@
 <template>
     <div class="badges-container w-100">
-        <h3>Badges/Certificates</h3>
+        <h3>Badges & Certificates</h3>
         <div class="certificates">
             <figure class="ibm-figure">
                 <img class="ibm" src="../assets/images/IBM_logo.svg.png" alt="">

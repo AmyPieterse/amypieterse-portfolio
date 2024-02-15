@@ -49,6 +49,9 @@
 </script>
 
 <style scoped>
+    /* *{
+        border: 2px solid ;
+    } */
     .about-container{
         display: grid;
         grid-template-columns: 1fr 2fr;
@@ -73,7 +76,7 @@
         padding: 4em 2.8em;
     }
     .paragraphs{
-        padding: .8em;
+        padding: .8em .8em .8em 0;
         border-radius: 10px;
         background-image: linear-gradient(
             45deg,
@@ -101,7 +104,10 @@
 
     .additional-info{
         column-count: 2;
-       
+        margin-top: 3em;
+    }
+    .additional-info span{
+        font-weight: bold;
     }
     .additional-info p a{
         text-decoration: none;
