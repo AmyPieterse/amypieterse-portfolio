@@ -49,9 +49,7 @@
 </script>
 
 <style scoped>
-    /* *{
-        border: 2px solid ;
-    } */
+   
     .about-container{
         display: grid;
         grid-template-columns: 1fr 2fr;
@@ -77,7 +75,6 @@
     }
     .paragraphs{
         padding: .8em .8em .8em 0;
-        border-radius: 10px;
         background-image: linear-gradient(
             45deg,
             #16d1e2,
@@ -139,6 +136,12 @@
     .about-container {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 0;
+        padding:3em 1em;
+    }
+    .customImage{
+        box-shadow: none;
+        border: none;
     }
     .image-container{
         display: flex;
@@ -181,7 +184,18 @@
 }
 
 @media (max-width: 768px) {
-    
+    .summary{
+        margin-top: 2em;
+    }
+    .about-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .paragraphs{
+        padding: 0;
+    }
     #downloadResume {
         text-align: center;
     }

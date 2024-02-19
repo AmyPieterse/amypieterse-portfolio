@@ -28,9 +28,9 @@
         <li class="nav-item">
           <a class="nav-link" href="#work">Projects</a>
         </li>
-        <!-- <li class="nav-item">
-          <a class="nav-link" href="#work">Experience</a>
-        </li> -->
+        <li class="nav-item">
+          <a class="nav-link" href="#experience">Experience</a>
+        </li>
         <li class="nav-item">
           <a class="nav-link" href="#testimonial">Testimonials</a>
         </li>

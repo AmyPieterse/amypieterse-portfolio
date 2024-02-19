@@ -18,7 +18,7 @@
             <Badges/>
           </article>
         </section>
-        <section id="resume">
+        <section id="experience">
           <Resume/>
         </section>
         <section id="work">

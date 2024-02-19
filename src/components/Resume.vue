@@ -6,7 +6,7 @@
     <div class="timeline-container">
         <div class="timeline">
             <ul>
-                <li v-for="work in resume" :key="work.id"  class="timeline-event" data-aos="fade-up-right" data-aos-duration="800">
+                <li v-for="work in resume" :key="work.id"  class="timeline-event" data-aos="zoom-out-up">
                     <div class="timeline-content">
                         <p  class="timeline-event-thumbnail">{{work.year}}</p>
                         <h3>{{work.place}}</h3>

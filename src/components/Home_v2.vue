@@ -18,6 +18,7 @@
   </script>
   
   <style scoped>
+ 
   #downloadResume{
         width: 100%;
         margin-top: 2em;
@@ -108,13 +109,13 @@
     #contactButton a{
     font-size:14px;
     padding: 12px 18px;
-  }
+  } 
+
   .landingContainer{
     flex-direction: column;
     align-items: center;
-    justify-content: initial;
+    justify-content: center;
     gap: 4em;
-    padding-top: 8em;
     padding-inline: 0;
   }
   .landingContainer img{
