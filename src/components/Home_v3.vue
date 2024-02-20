@@ -3,7 +3,7 @@
         <div id="textbox">
           <h1>Hi,</h1>
           <h1>I'm Amy Pieterse</h1>
-          <h1 class="descriptionText"><span class="">Aspiring</span> Full-Stack Web Developer</h1>
+          <h1 class="descriptionText">Full-Stack Web Developer</h1>
           <div id="downloadResume">
                 <a class="" type="button" href="https://drive.google.com/uc?export=download&id=1yWb7Zln90IHLI-STHk4Jv-k5dGHdxDYW" target="_blank">Download CV</a>
             </div>

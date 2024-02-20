@@ -37,16 +37,16 @@
   </div>
 </template>
 <script>
-  import Navbar from '@/components/Navbar_v2.vue'
-  import Home from '@/components/Home_v2.vue'
-  import FooterComp from '@/components/FooterComp_v2.vue'
-  import Resume from '@/components/Resume.vue';
-  import About from '@/components/About_v2.vue';
-  import Project from '@/components/Project.vue';
-  import Testimonial from '@/components/Testimonial.vue';
-  import Contact from '@/components/Contact_v2.vue'
-  import Skills from '@/components/Skills.vue';
-  import Badges from '@/components/Badges_v2.vue'
+  import Navbar from '@/components/Navbar_v3.vue'
+  import Home from '@/components/Home_v3.vue'
+  import FooterComp from '@/components/FooterComp_v3.vue'
+  import Resume from '@/components/Resume_v3.vue';
+  import About from '@/components/About_v3.vue';
+  import Project from '@/components/Project_v3.vue';
+  import Testimonial from '@/components/Testimonial_v3.vue';
+  import Contact from '@/components/Contact_v3.vue'
+  import Skills from '@/components/Skills_v3.vue';
+  import Badges from '@/components/Badges_v3.vue'
     export default{
       components:{
         Navbar,

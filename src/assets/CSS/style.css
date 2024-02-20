@@ -97,8 +97,8 @@ section{
   color: var(--primary-color);
 }
 
-#landing{
-  min-height: 100vh; 
+#landing .landingContainer{
+  min-height: 120vh; 
 }
 
 #textbox p{
@@ -134,9 +134,10 @@ section{
   header{
     min-height: 80vh;
   }
-  #landing{
-    height: 80vh;
-  }
+  
+#landing .landingContainer{
+  min-height: 100vh; 
+}
   main{
     padding: 0;
   }
