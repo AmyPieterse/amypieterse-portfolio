@@ -37,13 +37,13 @@
     padding: 3em 0;
 }
 .timeline-container{
-    min-height: 150vh;
+    min-height: 160vh;
     width: 100%;
 }
 
 .timeline{
     width: 80%;
-    height: 130vh;
+    height: 150vh;
     max-width: 800px;
     margin: 0 auto;
     position: relative;
