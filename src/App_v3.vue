@@ -18,11 +18,11 @@
             <Badges/>
           </article>
         </section>
-        <section id="experience">
-          <Resume/>
-        </section>
         <section id="work">
           <Project/>
+        </section>
+        <section id="experience">
+          <Resume/>
         </section>
         <section id="contact">
           <article id="testimonial">

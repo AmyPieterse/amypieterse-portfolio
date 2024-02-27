@@ -59,6 +59,7 @@ export default {
   grid-template-columns: repeat(8, 1fr);
   grid-auto-rows: minmax(250px, auto);
   grid-gap: 10px;
+  padding-top: 3em;
 }
 
 .wrapper div{

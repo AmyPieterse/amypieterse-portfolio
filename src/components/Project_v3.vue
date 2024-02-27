@@ -66,6 +66,7 @@
             #c2fafd,
             #edffff
         );
+        padding-top: 3em;
     }
     .projectCard:nth-child(odd){
         grid-template-columns: 60% 40%;

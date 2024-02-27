@@ -53,7 +53,7 @@
         display: grid;
         grid-template-columns: 1fr 2fr;
         grid-gap: 3em;
-        padding: 0 10rem;
+        padding: 3em 10rem;
         background-color: rgba(0, 0, 255, 0.03);
     }
     .image-container{

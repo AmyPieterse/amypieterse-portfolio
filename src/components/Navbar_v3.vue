@@ -138,7 +138,6 @@ color: var(--secondary-color-1)!important;
       var(--secondary-color-1),
       var( --button-color),
       var(--secondary-color-1),
-      var(--accent-color-1)
     );
     border-radius: inherit;
     animation: rotation 2s linear infinite;
