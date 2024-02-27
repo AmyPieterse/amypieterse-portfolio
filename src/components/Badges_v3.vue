@@ -30,8 +30,6 @@
   </script>
   
   <style scoped>
-   
-
     .badges-container{
         width: 100%;
         padding: 3rem 0;
@@ -78,5 +76,11 @@
         font-size: 14px;
         font-weight: 600;
     }
+
+@media (max-width: 990px) {
+    .badge{
+        flex-direction: column;
+    }
+}
     
   </style>

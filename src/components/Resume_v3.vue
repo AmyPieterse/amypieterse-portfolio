@@ -33,6 +33,7 @@
 </script>
 
 <style scoped>
+
 .heading{
     padding: 3em 0;
 }
@@ -54,12 +55,10 @@
     background-color: black;
     height: 100%;
     width: 2px;
-    left: 50%;
+    left: 6%;
     transform: translateX(-50%);
     color: black;
 }
-
-
 
 .timeline ul{
     list-style: none;
@@ -71,10 +70,15 @@
     border: 2px solid black;
     border-radius: 10px;
     margin-bottom: 20px;
-    width: 50%;
+    width: 100%;
 }
 .timeline li:last-child{
     margin-bottom: 0;
+}
+@media screen and (max-width: 900px) {
+    .timeline{
+    height: 145vh;
+    }
 }
 
 @media screen and (min-width: 768px) {

@@ -108,10 +108,12 @@ export default {
 }
 
 @media (max-width: 990px) {
-  
-  .grid1,.grid2,.grid3,.grid4{
-    grid-column: 1/9;
+  .wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 3em 1em;
   }
-
+ 
 }
 </style>

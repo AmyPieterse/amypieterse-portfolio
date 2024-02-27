@@ -80,13 +80,10 @@ section{
 
   min-height: 100vh;
   color: var(--primary-color);
-  overflow: auto;
+  overflow: hidden;
 }
 
-#contact{
-  padding-bottom: 0;
-  padding: 5rem 10rem;
-}
+
 
 #skills{
   min-height:100vh;
@@ -110,11 +107,6 @@ section{
   font-size: 120px;
 }
 
-#contact{
-  display: grid;
-  grid-template-columns: 65% 35%;
-  background-color: rgba(0, 0, 255, 0.03);;
-}
 #resume{
   min-height: 100vh;
 }
@@ -141,11 +133,20 @@ section{
   main{
     padding: 0;
   }
-  #skills{
-   height: 150vh;
-  }
+
+}
+#contact{
+  padding: 5rem 0.5rem;
+}
+
+@media (min-width: 990px) {
   #contact{
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    display: grid;
+    grid-template-columns: 65% 35%;
+    background-color: rgba(0, 0, 255, 0.03);
+    padding-bottom: 0;
+    padding: 5rem 10rem;
   }
 }
+
 

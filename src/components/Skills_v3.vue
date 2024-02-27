@@ -3,7 +3,7 @@
       <h1 class="heading">My Skills</h1>
       <ul class="cards">
   <li>
-    <a href="" class="card">
+    <div class="card">
       <img src="../assets/images/pexels-picjumbocom-196645.jpg" class="card-image" alt="" />
       <div class="card__overlay">
         <div class="card__header">
@@ -23,10 +23,10 @@
           <li>Redux</li>
         </ul>
       </div>
-    </a>      
+    </div>      
   </li>
   <li>
-    <a href="" class="card">
+    <div class="card">
       <img src="../assets/images/pexels-luis-gomes-546819.jpg" class="card-image" alt="" />
       <div class="card__overlay">        
         <div class="card__header">
@@ -48,10 +48,10 @@
           <li>MongoDB</li>
         </ul>
       </div>
-    </a>
+    </div>
   </li>
   <li>
-    <a href="" class="card">
+    <div class="card">
       <img src="../assets/images/github-pages.jpg" class="card-image" alt="" />
       <div class="card__overlay">
         <div class="card__header">
@@ -70,7 +70,7 @@
           <li>Cybersecurity</li>
         </ul>
       </div>
-    </a>
+    </div>
   </li>  
 </ul> 
     </div>
@@ -87,6 +87,7 @@
 .skills-container{
   padding: 5rem 10rem;
   min-height: 100vh;
+
 }
 
 .heading{
@@ -202,13 +203,24 @@
 }  
 
 @media (max-width: 990px) {
-  #skills{
-    height: 150vh;
+  .skills-container{
+    padding: 3rem 1.5rem;
+    min-height: 160vh;
+    width: 100%;
   }
   .cards{
     margin: 3em 0 0 0;
-    height: 45rem;
   }
+  .cards li{
+    height: 16.5rem;
+  }
+  .card-description {
+  height: 10rem;
+  column-count: 2;
+}  
+.card-description li {
+  height: min-content;
+} 
 }
 
 </style>

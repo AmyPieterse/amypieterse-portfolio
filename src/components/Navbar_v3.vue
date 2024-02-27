@@ -52,6 +52,9 @@ export default {};
 nav{
   margin: 0;
   padding: 1rem;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
 }
 .navbar{
   background-color:  #16d1e2;

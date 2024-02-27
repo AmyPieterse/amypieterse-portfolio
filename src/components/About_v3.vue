@@ -1,6 +1,5 @@
 <template>
     <div class="about-container" id="about">
-        
         <div class="image-container">
             <img src="https://i.ibb.co/Q84GvTK/about-Profile-Image.jpg" alt="About Image" class="customImage">
         </div>
