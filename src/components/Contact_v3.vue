@@ -57,6 +57,9 @@
 .contact-container h2{
         margin-bottom: 1em;
     }
+.heading{
+    text-align: center;
+}
 .submit-container{
         display: flex;
         justify-content: center;
