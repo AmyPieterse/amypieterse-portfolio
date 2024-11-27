@@ -8,7 +8,7 @@
                 <a class="" type="button" href="https://drive.google.com/uc?export=download&id=1yWb7Zln90IHLI-STHk4Jv-k5dGHdxDYW" target="_blank">Download CV</a>
             </div>
         </div>
-        <img src="https://ibb.co/nLKtmDh" alt="profile image">
+        <img src="https://i.ibb.co/vjMRqJ2/Migal-VANAS-Photography-8-K-IMG-4000.jpg" alt="profile image">
     </div>
       
   </template>
