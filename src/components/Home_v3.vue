@@ -8,7 +8,7 @@
                 <a class="" type="button" href="https://drive.google.com/uc?export=download&id=1yWb7Zln90IHLI-STHk4Jv-k5dGHdxDYW" target="_blank">Download CV</a>
             </div>
         </div>
-        <img src="https://i.ibb.co/x5pW0b6/professional-Image.png" alt="profile image">
+        <img src="https://ibb.co/nLKtmDh" alt="profile image">
     </div>
       
   </template>
