@@ -19,8 +19,8 @@
           <li>JavaScript</li>
           <li>TypeScript</li>
           <li>Vue.js</li>
-          <li>React.js</li>
-          <li>Redux</li>
+          <li>WordPress</li>
+          <li>WooCommerce</li>
         </ul>
       </div>
     </div>      
@@ -42,10 +42,9 @@
           <li>RESTful APIs</li>
           <li>MySQL</li>
           <li>Python</li>
-          <li>Django</li>
           <li>Numpy</li>
           <li>Pandas</li>
-          <li>MongoDB</li>
+          <li>SQL</li>
         </ul>
       </div>
     </div>
