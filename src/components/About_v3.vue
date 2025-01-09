@@ -18,10 +18,7 @@
                 I really enjoy math, solving problems, and I'm a big fan of logical thinking and don't like sticking to the same old ways of doing things. I believe in the power of not giving up and taking on challenging tasks. 
                 </p>
                 <div class="additional-info">
-                <p><span>Date of birth:</span> 19/07/1999</p>
-                <p><span>Address:</span> Ravensmead, Cape Town</p>
                 <p><span>Languages:</span> English & Afrikaans</p>
-                <p><span>Contact:</span> 067 000 4602</p>
             </div>
             </div>
             <div class="interests">
