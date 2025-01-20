@@ -5,7 +5,7 @@
           <h1>I'm Amy Pieterse</h1>
           <h1 class="descriptionText">Full-Stack Web Developer</h1>
           <div id="downloadResume">
-                <a class="" type="button" href="https://drive.google.com/uc?export=download&id=1yWb7Zln90IHLI-STHk4Jv-k5dGHdxDYW" target="_blank">Download CV</a>
+                <a class="" type="button" href="https://drive.google.com/uc?export=download&id=1mvSQIXwtRIT9L8TbTTBeJg_Wb0CgpiL2" target="_blank">Download CV</a>
             </div>
         </div>
         <img src="https://i.ibb.co/vjMRqJ2/Migal-VANAS-Photography-8-K-IMG-4000.jpg" alt="profile image">

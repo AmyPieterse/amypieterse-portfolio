@@ -8,8 +8,9 @@
             <h1 class="heading">About Me</h1>
             <div class="paragraphs">
                 <p>
-                I am currently expanding my skill set through the web development program at Life Choices Coding Academy.
-                As I work towards becoming a full-stack web developer, I'm driven by my strong passion for learning and my commitment to doing great work. 
+                Self-starting and resourceful web developer with 2 years handson
+                experience implementing front-end and back-end development
+                solutions.
                 </p>
                 <p>
                 My journey in the tech world is marked by my dedication to exploring new solutions and always striving to do better.   
